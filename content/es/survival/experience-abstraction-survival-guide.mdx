@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de supervivencia de experience abstraction: Consejos y Trucos",
+  description: "Domina las mecánicas de cordura, activa las formas de abstracción y sobrevive al circo digital con nuestra guía de supervivencia integral de experience abstraction.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Survival+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de experience abstraction"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Mantener tu medidor de cordura para sobrevivir al entorno del circo digital.
+- **Mecánicas de Cordura**: Evita las habitaciones oscuras y las grandes altitudes para prevenir el agotamiento rápido de la cordura.
+- **Forma de Abstracción**: Agotar la cordura te transforma en una entidad capaz de atacar a otros.
+- **El Sótano (The Cellar)**: Permanecer abstraído durante cinco minutos te teletransporta a un sótano ineludible.
+- **Comandos Secretos**: Escribe Caine en el chat para activar una respuesta interactiva especial.
+</Callout>
+
+<Section icon={Map} title="Guía de supervivencia de experience abstraction: Conceptos Básicos">
+
+El mundo surrealista del circo digital ofrece una mezcla única de tensión psicológica y exploración. En este entorno, los jugadores deben navegar por un paisaje caprichoso pero inquietante donde su objetivo principal es gestionar su estado mental. Esta guía de supervivencia de experience abstraction se centra en el ciclo central de juego, que gira en torno a equilibrar tu cordura mientras exploras los terrenos del circo. Los jugadores pueden interactuar con habitaciones personales, escalar estructuras masivas y participar en eventos de todo el servidor.
+
+Para los jugadores que buscan probar mecánicas, localizar secretos o experimentar con el estado de abstracción sin interrupciones, se recomienda encarecidamente unirse a un servidor privado. Los servidores privados te permiten controlar el flujo del juego, gestionar las fuentes de luz y explorar el mapa a tu propio ritmo sin la interferencia de jugadores hostiles.
+
+**Puntos destacados del video:**
+- **Gestión de la Cordura**: Cómo monitorear el medidor en la parte inferior de la pantalla.
+- **Métodos de Abstracción**: Guía visual paso a paso de los tres activadores de transformación.
+- **El Evento del Sótano**: Qué sucede después de permanecer transformado durante cinco minutos.
+- **Huevo de Pascua de Caine**: Invocar al maestro de ceremonias a través de la interfaz de chat del juego.
+
+<YouTubeEmbed videoId="ZUscG9QbM2E" title="I Became ABSTRACTED... Then Caine Did THIS. | Experience Abstraction (Roblox)" />
+
+<Callout type="warning" title="Advertencia de Fotosensibilidad">
+Este juego contiene luces intermitentes frecuentes, efectos visuales estroboscópicos, transiciones rápidas y escenas psicodélicas intensas. Los jugadores con antecedentes de epilepsia, convulsiones o sensibilidad a la luz deben tener extrema precaución o evitar jugar. Interrumpe el juego inmediatamente si experimentas molestias.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Cordura y Estados de Abstracción">
+
+La cordura es la mecánica definitoria del juego. Tu estado mental actual se rastrea mediante un medidor de cordura dedicado ubicado en la parte inferior de la interfaz de usuario. Cuando este medidor está lleno, permaneces en tu forma de personaje normal, lo que te permite explorar, personalizar tu dormitorio y chatear con otros jugadores. Sin embargo, activadores ambientales específicos causarán que este medidor se agote.
+
+Una vez que el medidor de cordura llega a cero, tu personaje experimenta una transformación dramática. Pierdes tu apariencia humana y quedas cubierto por un vacío oscuro, con fallos (glitches) y múltiples ojos. Este estado te otorga capacidades ofensivas pero limita tus opciones de interacción.
+
+| Estado | Movimiento | Capacidad de Combate | Nivel de Cordura | Método de Escape |
+|---|---|---|---|---|
+| Normal | Velocidad estándar | Solo defensivo | 1% a 100% | Juego estándar |
+| Abstraído | Movimiento con fallos | Dañar a otros jugadores | 0% (Agotado) | Menú de reaparición |
+
+Comprender las diferencias entre estos dos estados es crucial para planificar tu estrategia de supervivencia. Mientras que el estado normal es ideal para la exploración y la personalización, el estado abstraído cambia tu rol al de un depredador, permitiéndote cazar a los jugadores restantes en el servidor.
+
+| Método | Ubicación | Tasa de Drenaje de Cordura | Tiempo Requerido | Nivel de Riesgo |
+|---|---|---|---|---|
+| Habitación Oscura | Dormitorio Personal | Moderada | 3 minutos | Bajo |
+| Escalar la Torre | Cima de la Torre Central | Alta | 2 minutos | Medio |
+| Amigo con Fallos | Cerca de un Jugador Abstraído | Muy Alta | 1 minuto | Alto |
+
+<Callout type="tip" title="Consejo de Recuperación de Cordura">
+Si deseas restablecer tu medidor de cordura sin completar una transformación total, puedes permitir que tu salud se agote antes de que el medidor de cordura se vacíe por completo. Restablecer tu salud restaurará tu medidor de cordura al máximo.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Capacidades de Ataque">
+    En la forma abstraída, obtienes la capacidad de golpear a otros jugadores. Tus ataques infligen daño y agotan activamente su reserva de salud.
+  </Card>
+  <Card title="Fallos Visuales">
+    Tu pantalla mostrará superposiciones estáticas y cambios de color, representando el estado corrupto de la mente de tu personaje.
+  </Card>
+  <Card title="Teletransportación al Sótano">
+    Sobrevivir en la forma abstraída durante cinco minutos continuos activa una transición automática a la zona del sótano del juego.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cómo Activar la Abstracción">
+
+Si bien la supervivencia es el objetivo principal, muchos jugadores buscan activamente experimentar la transformación de abstracción. Convertirse en abstraído desbloquea nuevas opciones de juego y es necesario para acceder al área oculta del sótano. Hay tres vías distintas para lograr este estado.
+
+<Steps>
+  <Step num="1" title="Ubica tu Habitación Personal">
+    Sube las escaleras a través de la puerta marcada con la flecha. Encuentra tu dormitorio asignado. Usa el interruptor de luz cerca de la puerta para apagar todas las luces, sumergiendo la habitación en la oscuridad total.
+  </Step>
+  <Step num="2" title="Espera el Agotamiento de la Cordura">
+    Quédate quieto en la habitación oscura. Monitorea el medidor de cordura en la parte inferior de tu pantalla. Tomará aproximadamente tres minutos de estar en la oscuridad para que el medidor se vacíe por completo.
+  </Step>
+  <Step num="3" title="Escala la Torre Central">
+    Alternativamente, sal de las habitaciones y escala la estructura de la torre alta en el centro del mapa. Estar en la cima de la torre te expone al vacío, agotando tu cordura rápidamente.
+  </Step>
+  <Step num="4" title="Quédate Cerca de un Jugador Abstraído">
+    El método más rápido consiste en encontrar a otro jugador que ya se haya transformado. Estar directamente adyacente a un jugador abstraído agotará tu medidor de cordura en aproximadamente un minuto.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Sótano Ineludible">
+Una vez que ingresas al sótano después de cinco minutos de abstracción, quedas atrapado en un laberinto oscuro y con fallos. No hay puertas, interruptores ni eventos que te permitan escapar de esta zona. La única forma de regresar al área principal del circo es abrir el menú de configuración y seleccionar la opción de reaparición (respawn).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Huevos de Pascua y Opciones de Personalización">
+
+Más allá de los elementos centrales de supervivencia, los jugadores pueden interactuar con el entorno de varias maneras únicas. Tu dormitorio sirve como un centro personalizable. Al acceder al panel de personalización dentro de tu habitación, puedes alterar el esquema de colores de las paredes y el suelo según tus preferencias.
+
+Además, el juego cuenta con activadores de chat interactivos. El secreto más notable involucra al personaje del maestro de ceremonias, Caine. Escribir palabras clave específicas en el cuadro de chat público activa una respuesta inmediata del sistema.
+
+| Característica | Comando de Entrada | Resultado Esperado | Límite de Uso |
+|---|---|---|---|
+| Invocar a Caine | Escribe Caine en el chat | Caine responde en el chat | Ilimitado |
+| Color de Habitación | Menú de Personalización | Cambia el color de la pared | Ilimitado |
+| Escapar del Sótano | Botón de Reaparición | Restablece el personaje | Ilimitado |
+
+<Checklist
+  id="survival-milestones"
+  title="Objetivos de Exploración del Circo:"
+  items={[
+    "Ubicar y reclamar tu dormitorio personal en el piso de arriba",
+    "Personalizar los colores de las paredes de tu dormitorio usando la interfaz",
+    "Invocar a Caine escribiendo su nombre en el cuadro de chat",
+    "Lograr la abstracción completa usando el método de la habitación oscura",
+    "Sobrevivir cinco minutos como una entidad para visitar el sótano"
+  ]}
+/>
+
+<Callout type="success" title="Secreto Desbloqueado">
+Escribir 'Caine' en el chat es una forma divertida de interactuar con el lore del juego. El maestro de ceremonias reconocerá tu mensaje, confirmando que el circo digital siempre está vigilando tu progreso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo escapo del sótano una vez que soy teletransportado allí?",
+    answer: "No hay una salida física en el sótano. Debes abrir el menú del juego y hacer clic en el botón de reaparición (respawn) para regresar al lobby principal en tu estado normal."
+  },
+  {
+    question: "¿Puedo detener el proceso de abstracción una vez que comienza?",
+    answer: "Sí. Puedes detener el proceso entrando en áreas bien iluminadas, saliendo de la torre o restableciendo tu salud antes de que el medidor de cordura llegue a cero."
+  },
+  {
+    question: "¿El servidor privado cuesta Robux?",
+    answer: "Se recomienda encarecidamente el uso de servidores privados para probar estas estrategias de supervivencia en paz, pero debes consultar la página oficial del juego en Roblox para conocer los precios actuales de creación de servidores."
+  },
+  {
+    question: "¿Qué les sucede a otros jugadores cuando los ataco en mi forma con fallos?",
+    answer: "Tus ataques dañan su barra de salud. Si su salud llega a cero, reaparecerán en el lobby principal con su cordura totalmente restaurada."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones de la Comunidad">
+Para las últimas actualizaciones, notas del parche y expansiones del mapa, visita la página oficial de Roblox del juego. Los desarrolladores ocasionalmente añaden nuevas habitaciones, colores de personalización y comandos de chat.
+</Callout>
+
+</Section>

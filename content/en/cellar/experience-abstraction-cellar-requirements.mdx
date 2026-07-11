@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Experience Abstraction Cellar Requirements: Unlock Secret Areas",
+  description: "Learn the exact experience abstraction cellar requirements in Roblox. Follow our progression steps to trigger the Caine sequence and enter the Cellar.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Cellar+Requirements+Guide",
+  date: "2026-07-12",
+  author: "experience abstraction Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cellar Access**: Reaching the Cellar requires completing specific **experience abstraction cellar requirements** rather than normal map exploration.
+- **Transformation Prerequisite**: You must fully complete the abstraction process first; you cannot enter the Cellar in human form.
+- **Caine Sequence**: After transforming, you must remain in the server and wait for Caine to appear to trigger the transition.
+- **Survival Contrast**: While exploring, players can choose to resist abstraction using group tactics or deliberately trigger it for progression.
+</Callout>
+
+<Section icon={Map} title="Understanding Experience Abstraction Cellar Requirements">
+
+The Cellar is a highly sought-after, sequence-locked location in the Roblox social horror hit, Experience Abstraction (developed by pawlooz). Unlike standard Roblox maps where secret rooms are accessed via hidden doors or invisible walls, reaching the Cellar is entirely progression-based. To unlock this dark zone, you must satisfy the exact **experience abstraction cellar requirements** by completing a full character transformation.
+
+Because the game is inspired by Glitch Productions' *The Amazing Digital Circus* (TADC), the transition mimics the descent of a corrupted character. You cannot walk, glitch, or jump into the Cellar as a normal player. The game engine only loads the Cellar transition once your avatar undergoes a complete state change.
+
+| Requirement Type | Prerequisite Condition | Expected Result |
+|---|---|---|
+| **State Requirement** | Complete 1 of 3 Abstraction methods | Character enters Abstracted state |
+| **Server Requirement** | Do not reset or leave after transforming | Maintains the active event chain |
+| **NPC Requirement** | Trigger and watch the Caine sequence | Initiates the cinematic teleport |
+| **Location Target** | Successful transition completion | Spawn inside the dark Cellar |
+
+<Callout type="warning" title="Progression Warning">
+Resetting your character, respawning, or disconnecting from the server immediately after transforming will break the event loop. If you break the chain, you must restart the entire abstraction process from the beginning.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Route to the Cellar">
+
+To successfully meet the **experience abstraction cellar requirements**, players must follow a strict, linear progression path. The event chain begins with deliberate transformation and ends with the cinematic transition into the Cellar.
+
+<Steps>
+  <Step num="1" title="Trigger Character Abstraction">
+    Select one of the three confirmed abstraction methods: isolate yourself from the group, stay in a completely dark room, or stand next to an already abstracted player. Maintain this state until the transformation cutscene begins.
+  </Step>
+  <Step num="2" title="Maintain the Abstracted State">
+    Once your avatar transforms into the polygonal, multi-eyed abstracted form, do not touch the reset button. You must remain active in the server as an abstracted entity.
+  </Step>
+  <Step num="3" title="Wait for the Caine Encounter">
+    Stay in the playable circus area. Caine will eventually spawn in response to your abstraction. This cinematic sequence is required to bridge your character from the main hall to the hidden depths.
+  </Step>
+  <Step num="4" title="Complete the Cellar Transition">
+    Allow the Caine animation to play in its entirety without exiting the game. Once the sequence concludes, the game will automatically transfer your character directly into the Cellar.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+The fastest way to trigger the initial abstraction is by combining methods. Enter a private room, switch off the lights to create darkness, and ensure no other players follow you to trigger the isolation condition.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival vs. Abstraction Mechanics">
+
+In Experience Abstraction, players constant face a choice: resist the corruption to socialize, or yield to it to unlock secret cutscenes and locations like the Cellar. Understanding how to manage your abstraction meter is key to controlling your gameplay experience.
+
+<CardGrid cols={3}>
+  <Card title="Resisting Abstraction">
+    - **Stay close** to the main group
+    - Keep corridors **brightly lit**
+    - **Run away** from transformed players
+  </Card>
+  <Card title="Deliberate Abstraction">
+    - Seek out **isolated corners**
+    - Turn off room **light switches**
+    - **Follow** active abstracted entities
+  </Card>
+  <Card title="Cellar Progression">
+    - Requires **100% Abstraction**
+    - Must trigger **Caine event**
+    - Unlocks **exclusive lore cutscenes**
+  </Card>
+</CardGrid>
+
+To help you manage these states, refer to the environmental risk levels across the map:
+
+| Map Location | Primary Environmental State | Abstraction Risk Level | Best Used For |
+|---|---|---|---|
+| **Main Circus Floor** | Bright / Highly Populated | Low Risk | Socializing & Survival |
+| **Player Room Hallway** | Moderate Light / Transition | Medium Risk | Regrouping / Moving |
+| **Private Rooms** | Switchable Light / Isolated | High Risk | Fast Abstraction Setup |
+| **Dark Corridors** | Unlit / Narrow | High Risk | Passive Abstraction |
+| **The Cellar** | Sequence-Only Dark Zone | Maximum (Abstracted Only) | Ending the Event Chain |
+
+<Callout type="success" title="Group Coordination">
+If you are playing with friends, you can take turns abstracting. Having one player remain human while another abstracting allows you to safely test the proximity method without losing track of each other on the server.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cellar Progression Checklist">
+
+Before attempting to reach the Cellar, use this checklist to ensure your server environment and character state are optimal for completing the event chain.
+
+<Checklist
+  id="cellar-checklist"
+  title="Pre-Flight Cellar Checklist:"
+  items={[
+    "Verify you are in an active multiplayer server",
+    "Locate a dark room or private corridor to start the process",
+    "Ensure your character is fully transformed into the abstracted state",
+    "Avoid resetting or using the respawn menu during the transition",
+    "Allow the Caine cinematic sequence to play without interruption"
+  ]}
+/>
+
+<Callout type="info" title="Update Note">
+According to the latest July 10, 2026 build, the developer pawlooz has streamlined the transition times, making the post-abstraction Caine sequence trigger slightly faster than in previous updates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the exact experience abstraction cellar requirements?",
+    answer: "To reach the Cellar, you must fully abstract your character using isolation, darkness, or proximity to an abstracted player. You must then remain in the server without resetting and wait for the Caine sequence to trigger the automatic transition."
+  },
+  {
+    question: "Can I walk into the Cellar without transforming?",
+    answer: "No. The Cellar is a sequence-locked location. There is no physical door or open pathway that allows normal human players to walk inside during standard gameplay."
+  },
+  {
+    question: "What happens if I reset my character after transforming?",
+    answer: "Resetting your character clears your abstracted state and returns you to human form, which immediately breaks the event chain. You will have to start the abstraction process over again."
+  },
+  {
+    question: "Does Caine spawn immediately after I transform?",
+    answer: "Not always. You may need to wait in the server for a short period as an abstracted character before the Caine event activates and begins the Cellar transition."
+  }
+]} />
+
+</Section>

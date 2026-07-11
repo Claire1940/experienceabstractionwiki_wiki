@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del Sótano en Experience Abstraction: Desbloquea Áreas Secretas",
+  description: "Conoce los requisitos exactos del sótano en Experience Abstraction de Roblox. Sigue nuestros pasos de progresión para activar la secuencia de Caine y entrar al Sótano.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Cellar+Requirements+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Experience Abstraction"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Acceso al Sótano**: Llegar al Sótano requiere completar **requisitos específicos de abstracción del sótano** en lugar de simplemente explorar el mapa.
+- **Prerrequisito de Transformación**: Debes completar el proceso de abstracción por completo primero; no puedes entrar al Sótano en forma humana.
+- **Secuencia de Caine**: Después de transformarte, debes permanecer en el servidor y esperar a que aparezca Caine para activar la transición.
+- **Contraste de Supervivencia**: Mientras exploran, los jugadores pueden elegir resistirse a la abstracción usando tácticas grupales o activarla deliberadamente para progresar.
+</Callout>
+
+<Section icon={Map} title="Entendiendo los requisitos del Sótano en Experience Abstraction">
+
+El Sótano es una ubicación muy codiciada y bloqueada por secuencias en el exitoso juego de terror social de Roblox, Experience Abstraction (desarrollado por pawlooz). A diferencia de los mapas estándar de Roblox donde las habitaciones secretas se acceden mediante puertas ocultas o paredes invisibles, llegar al Sótano se basa totalmente en la progresión. Para desbloquear esta zona oscura, debes cumplir con los **requisitos exactos de abstracción del sótano** completando una transformación de personaje completa.
+
+Debido a que el juego está inspirado en *The Amazing Digital Circus* (TADC) de Glitch Productions, la transición imita la caída de un personaje corrompido. No puedes caminar, glitchear o saltar al Sótano como un jugador normal. El motor del juego solo carga la transición del Sótano una vez que tu avatar experimenta un cambio de estado completo.
+
+| Tipo de Requisito | Condición de Prerrequisito | Resultado Esperado |
+|---|---|---|
+| **Requisito de Estado** | Completar 1 de los 3 métodos de abstracción | El personaje entra en estado Abstracto |
+| **Requisito de Servidor** | No reiniciar ni salir tras transformarse | Mantiene la cadena de eventos activa |
+| **Requisito de NPC** | Activar y ver la secuencia de Caine | Inicia el teletransporte cinemático |
+| **Objetivo de Ubicación** | Finalización exitosa de la transición | Aparecer dentro del Sótano oscuro |
+
+<Callout type="warning" title="Advertencia de Progresión">
+Reiniciar tu personaje, reaparecer o desconectarte del servidor inmediatamente después de transformarte romperá el bucle de eventos. Si rompes la cadena, deberás reiniciar todo el proceso de abstracción desde el principio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta paso a paso hacia el Sótano">
+
+Para cumplir con éxito con los **requisitos del sótano en Experience Abstraction**, los jugadores deben seguir una ruta de progresión estricta y lineal. La cadena de eventos comienza con una transformación deliberada y termina con la transición cinemática hacia el Sótano.
+
+<Steps>
+  <Step num="1" title="Activar la Abstracción del Personaje">
+    Selecciona uno de los tres métodos de abstracción confirmados: aíslate del grupo, quédate en una habitación completamente oscura o párate junto a un jugador ya abstraído. Mantén este estado hasta que comience la cinemática de transformación.
+  </Step>
+  <Step num="2" title="Mantener el Estado Abstracto">
+    Una vez que tu avatar se transforme en la forma abstracta poligonal y con múltiples ojos, no toques el botón de reinicio. Debes permanecer activo en el servidor como una entidad abstraída.
+  </Step>
+  <Step num="3" title="Esperar el Encuentro con Caine">
+    Quédate en el área jugable del circo. Caine aparecerá eventualmente en respuesta a tu abstracción. Esta secuencia cinemática es necesaria para llevar a tu personaje desde el salón principal hasta las profundidades ocultas.
+  </Step>
+  <Step num="4" title="Completar la Transición al Sótano">
+    Permite que la animación de Caine se reproduzca en su totalidad sin salir del juego. Una vez que la secuencia concluya, el juego transferirá automáticamente a tu personaje directamente al Sótano.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Profesional">
+La forma más rápida de activar la abstracción inicial es combinando métodos. Entra en una habitación privada, apaga las luces para crear oscuridad y asegúrate de que ningún otro jugador te siga para activar la condición de aislamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia vs. Mecánicas de Abstracción">
+
+En Experience Abstraction, los jugadores se enfrentan constantemente a una elección: resistir la corrupción para socializar, o ceder ante ella para desbloquear cinemáticas secretas y ubicaciones como el Sótano. Entender cómo gestionar tu medidor de abstracción es clave para controlar tu experiencia de juego.
+
+<CardGrid cols={3}>
+  <Card title="Resistir la Abstracción">
+    - **Mantente cerca** del grupo principal
+    - Mantén los pasillos **bien iluminados**
+    - **Huye** de los jugadores transformados
+  </Card>
+  <Card title="Abstracción Deliberada">
+    - Busca **esquinas aisladas**
+    - Apaga los **interruptores de luz** de las habitaciones
+    - **Sigue** a entidades abstraídas activas
+  </Card>
+  <Card title="Progresión al Sótano">
+    - Requiere **100% de Abstracción**
+    - Debe activar el **evento de Caine**
+    - Desbloquea **cinemáticas de historia exclusivas**
+  </Card>
+</CardGrid>
+
+Para ayudarte a gestionar estos estados, consulta los niveles de riesgo ambiental en todo el mapa:
+
+| Ubicación del Mapa | Estado Ambiental Primario | Nivel de Riesgo de Abstracción | Mejor uso para |
+|---|---|---|---|
+| **Piso Principal del Circo** | Brillante / Muy poblado | Riesgo Bajo | Socializar y Supervivencia |
+| **Pasillo de Habitaciones** | Luz moderada / Transición | Riesgo Medio | Reagruparse / Moverse |
+| **Habitaciones Privadas** | Luz ajustable / Aislado | Riesgo Alto | Configuración rápida de abstracción |
+| **Pasillos Oscuros** | Sin luz / Estrecho | Riesgo Alto | Abstracción pasiva |
+| **El Sótano** | Zona oscura (solo secuencia) | Máximo (Solo abstraídos) | Terminar la cadena de eventos |
+
+<Callout type="success" title="Coordinación Grupal">
+Si juegas con amigos, pueden turnarse para abstraerse. Tener a un jugador humano mientras otro se abstrae te permite probar de forma segura el método de proximidad sin perderse de vista en el servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para la progresión del Sótano">
+
+Antes de intentar llegar al Sótano, usa esta lista de verificación para asegurarte de que el entorno de tu servidor y el estado de tu personaje sean óptimos para completar la cadena de eventos.
+
+<Checklist
+  id="cellar-checklist"
+  title="Lista de verificación previa al Sótano:"
+  items={[
+    "Verifica que estás en un servidor multijugador activo",
+    "Ubica una habitación oscura o un pasillo privado para comenzar el proceso",
+    "Asegúrate de que tu personaje esté completamente transformado en el estado abstraído",
+    "Evita reiniciar o usar el menú de reaparición durante la transición",
+    "Permite que la secuencia cinemática de Caine se reproduzca sin interrupciones"
+  ]}
+/>
+
+<Callout type="info" title="Nota de Actualización">
+Según la versión más reciente del 10 de julio de 2026, el desarrollador pawlooz ha optimizado los tiempos de transición, haciendo que la secuencia de Caine posterior a la abstracción se active un poco más rápido que en actualizaciones anteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos exactos del sótano en Experience Abstraction?",
+    answer: "Para llegar al Sótano, debes abstraer completamente a tu personaje usando aislamiento, oscuridad o proximidad a un jugador abstraído. Luego, debes permanecer en el servidor sin reiniciar y esperar a que la secuencia de Caine active la transición automática."
+  },
+  {
+    question: "¿Puedo entrar al Sótano sin transformarme?",
+    answer: "No. El Sótano es una ubicación bloqueada por secuencias. No hay ninguna puerta física o camino abierto que permita a los jugadores humanos normales entrar durante el juego estándar."
+  },
+  {
+    question: "¿Qué sucede si reinicio mi personaje después de transformarme?",
+    answer: "Reiniciar tu personaje elimina tu estado abstraído y te devuelve a la forma humana, lo que rompe inmediatamente la cadena de eventos. Tendrás que comenzar el proceso de abstracción desde cero."
+  },
+  {
+    question: "¿Caine aparece inmediatamente después de que me transformo?",
+    answer: "No siempre. Es posible que debas esperar en el servidor durante un corto período como personaje abstraído antes de que el evento de Caine se active y comience la transición al Sótano."
+  }
+]} />
+
+</Section>

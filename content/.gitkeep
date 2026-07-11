@@ -1,3 +1,0 @@
-# 此目录在 Part3 多语言清空后保留为空占位。
-# 后续 Part（内容填充）会在此按 routing.ts 最终语言集合重建 content/<locale>/<type>/ 结构。
-# generate-content-manifest.mjs 在 content/ 无 MDX 时生成 {} 清单；目录必须存在否则脚本 exit(1)。

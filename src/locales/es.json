@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "methods": "Métodos",
+    "caine": "Caine",
+    "cellar": "Cellar",
+    "survival": "Supervivencia",
+    "guide": "Guía",
+    "cutscenes": "Cutscenes",
+    "updates": "Actualizaciones"
+  }
+}

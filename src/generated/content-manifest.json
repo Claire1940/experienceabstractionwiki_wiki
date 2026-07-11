@@ -1,1 +1,482 @@
-{}
+{
+  "en": {
+    "caine": [
+      {
+        "slug": "experience-abstraction-caine-cutscene",
+        "file": "experience-abstraction-caine-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-caine-requirements",
+        "file": "experience-abstraction-caine-requirements"
+      },
+      {
+        "slug": "experience-abstraction-caine-transformation",
+        "file": "experience-abstraction-caine-transformation"
+      },
+      {
+        "slug": "experience-abstraction-caine-update",
+        "file": "experience-abstraction-caine-update"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-caine",
+        "file": "experience-abstraction-how-to-get-caine"
+      }
+    ],
+    "cellar": [
+      {
+        "slug": "experience-abstraction-cellar-cutscene",
+        "file": "experience-abstraction-cellar-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-cellar-location",
+        "file": "experience-abstraction-cellar-location"
+      },
+      {
+        "slug": "experience-abstraction-cellar-requirements",
+        "file": "experience-abstraction-cellar-requirements"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-to-cellar",
+        "file": "experience-abstraction-how-to-get-to-cellar"
+      }
+    ],
+    "cutscenes": [
+      {
+        "slug": "experience-abstraction-abstraction-cutscene",
+        "file": "experience-abstraction-abstraction-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-all-cutscenes",
+        "file": "experience-abstraction-all-cutscenes"
+      },
+      {
+        "slug": "experience-abstraction-new-cutscene",
+        "file": "experience-abstraction-new-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-transformation-cutscenes",
+        "file": "experience-abstraction-transformation-cutscenes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "experience-abstraction-beginner-guide",
+        "file": "experience-abstraction-beginner-guide"
+      },
+      {
+        "slug": "experience-abstraction-guide",
+        "file": "experience-abstraction-guide"
+      },
+      {
+        "slug": "experience-abstraction-how-to-play",
+        "file": "experience-abstraction-how-to-play"
+      },
+      {
+        "slug": "experience-abstraction-tips-and-tricks",
+        "file": "experience-abstraction-tips-and-tricks"
+      },
+      {
+        "slug": "experience-abstraction-walkthrough",
+        "file": "experience-abstraction-walkthrough"
+      }
+    ],
+    "methods": [
+      {
+        "slug": "experience-abstraction-abstract-fast",
+        "file": "experience-abstraction-abstract-fast"
+      },
+      {
+        "slug": "experience-abstraction-abstracted-player-method",
+        "file": "experience-abstraction-abstracted-player-method"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-requirements",
+        "file": "experience-abstraction-abstraction-requirements"
+      },
+      {
+        "slug": "experience-abstraction-alone-method",
+        "file": "experience-abstraction-alone-method"
+      },
+      {
+        "slug": "experience-abstraction-darkness-method",
+        "file": "experience-abstraction-darkness-method"
+      },
+      {
+        "slug": "experience-abstraction-how-to-abstract",
+        "file": "experience-abstraction-how-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-sleep-method",
+        "file": "experience-abstraction-sleep-method"
+      },
+      {
+        "slug": "experience-abstraction-three-ways-to-abstract",
+        "file": "experience-abstraction-three-ways-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-transformation-method",
+        "file": "experience-abstraction-transformation-method"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "experience-abstraction-abstracted-players",
+        "file": "experience-abstraction-abstracted-players"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-warning",
+        "file": "experience-abstraction-abstraction-warning"
+      },
+      {
+        "slug": "experience-abstraction-how-to-avoid-abstraction",
+        "file": "experience-abstraction-how-to-avoid-abstraction"
+      },
+      {
+        "slug": "experience-abstraction-light-and-darkness",
+        "file": "experience-abstraction-light-and-darkness"
+      },
+      {
+        "slug": "experience-abstraction-survival-guide",
+        "file": "experience-abstraction-survival-guide"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "experience-abstraction-latest-update",
+        "file": "experience-abstraction-latest-update"
+      },
+      {
+        "slug": "experience-abstraction-second-update",
+        "file": "experience-abstraction-second-update"
+      },
+      {
+        "slug": "experience-abstraction-update-notes",
+        "file": "experience-abstraction-update-notes"
+      },
+      {
+        "slug": "experience-abstraction-update-release-date",
+        "file": "experience-abstraction-update-release-date"
+      }
+    ]
+  },
+  "es": {
+    "caine": [
+      {
+        "slug": "experience-abstraction-caine-cutscene",
+        "file": "experience-abstraction-caine-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-caine-requirements",
+        "file": "experience-abstraction-caine-requirements"
+      },
+      {
+        "slug": "experience-abstraction-caine-transformation",
+        "file": "experience-abstraction-caine-transformation"
+      },
+      {
+        "slug": "experience-abstraction-caine-update",
+        "file": "experience-abstraction-caine-update"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-caine",
+        "file": "experience-abstraction-how-to-get-caine"
+      }
+    ],
+    "cellar": [
+      {
+        "slug": "experience-abstraction-cellar-cutscene",
+        "file": "experience-abstraction-cellar-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-cellar-location",
+        "file": "experience-abstraction-cellar-location"
+      },
+      {
+        "slug": "experience-abstraction-cellar-requirements",
+        "file": "experience-abstraction-cellar-requirements"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-to-cellar",
+        "file": "experience-abstraction-how-to-get-to-cellar"
+      }
+    ],
+    "cutscenes": [
+      {
+        "slug": "experience-abstraction-abstraction-cutscene",
+        "file": "experience-abstraction-abstraction-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-all-cutscenes",
+        "file": "experience-abstraction-all-cutscenes"
+      },
+      {
+        "slug": "experience-abstraction-new-cutscene",
+        "file": "experience-abstraction-new-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-transformation-cutscenes",
+        "file": "experience-abstraction-transformation-cutscenes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "experience-abstraction-beginner-guide",
+        "file": "experience-abstraction-beginner-guide"
+      },
+      {
+        "slug": "experience-abstraction-guide",
+        "file": "experience-abstraction-guide"
+      },
+      {
+        "slug": "experience-abstraction-how-to-play",
+        "file": "experience-abstraction-how-to-play"
+      },
+      {
+        "slug": "experience-abstraction-tips-and-tricks",
+        "file": "experience-abstraction-tips-and-tricks"
+      },
+      {
+        "slug": "experience-abstraction-walkthrough",
+        "file": "experience-abstraction-walkthrough"
+      }
+    ],
+    "methods": [
+      {
+        "slug": "experience-abstraction-abstract-fast",
+        "file": "experience-abstraction-abstract-fast"
+      },
+      {
+        "slug": "experience-abstraction-abstracted-player-method",
+        "file": "experience-abstraction-abstracted-player-method"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-requirements",
+        "file": "experience-abstraction-abstraction-requirements"
+      },
+      {
+        "slug": "experience-abstraction-alone-method",
+        "file": "experience-abstraction-alone-method"
+      },
+      {
+        "slug": "experience-abstraction-darkness-method",
+        "file": "experience-abstraction-darkness-method"
+      },
+      {
+        "slug": "experience-abstraction-how-to-abstract",
+        "file": "experience-abstraction-how-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-sleep-method",
+        "file": "experience-abstraction-sleep-method"
+      },
+      {
+        "slug": "experience-abstraction-three-ways-to-abstract",
+        "file": "experience-abstraction-three-ways-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-transformation-method",
+        "file": "experience-abstraction-transformation-method"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "experience-abstraction-abstracted-players",
+        "file": "experience-abstraction-abstracted-players"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-warning",
+        "file": "experience-abstraction-abstraction-warning"
+      },
+      {
+        "slug": "experience-abstraction-how-to-avoid-abstraction",
+        "file": "experience-abstraction-how-to-avoid-abstraction"
+      },
+      {
+        "slug": "experience-abstraction-light-and-darkness",
+        "file": "experience-abstraction-light-and-darkness"
+      },
+      {
+        "slug": "experience-abstraction-survival-guide",
+        "file": "experience-abstraction-survival-guide"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "experience-abstraction-latest-update",
+        "file": "experience-abstraction-latest-update"
+      },
+      {
+        "slug": "experience-abstraction-second-update",
+        "file": "experience-abstraction-second-update"
+      },
+      {
+        "slug": "experience-abstraction-update-notes",
+        "file": "experience-abstraction-update-notes"
+      },
+      {
+        "slug": "experience-abstraction-update-release-date",
+        "file": "experience-abstraction-update-release-date"
+      }
+    ]
+  },
+  "pt": {
+    "caine": [
+      {
+        "slug": "experience-abstraction-caine-cutscene",
+        "file": "experience-abstraction-caine-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-caine-requirements",
+        "file": "experience-abstraction-caine-requirements"
+      },
+      {
+        "slug": "experience-abstraction-caine-transformation",
+        "file": "experience-abstraction-caine-transformation"
+      },
+      {
+        "slug": "experience-abstraction-caine-update",
+        "file": "experience-abstraction-caine-update"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-caine",
+        "file": "experience-abstraction-how-to-get-caine"
+      }
+    ],
+    "cellar": [
+      {
+        "slug": "experience-abstraction-cellar-cutscene",
+        "file": "experience-abstraction-cellar-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-cellar-location",
+        "file": "experience-abstraction-cellar-location"
+      },
+      {
+        "slug": "experience-abstraction-cellar-requirements",
+        "file": "experience-abstraction-cellar-requirements"
+      },
+      {
+        "slug": "experience-abstraction-how-to-get-to-cellar",
+        "file": "experience-abstraction-how-to-get-to-cellar"
+      }
+    ],
+    "cutscenes": [
+      {
+        "slug": "experience-abstraction-abstraction-cutscene",
+        "file": "experience-abstraction-abstraction-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-all-cutscenes",
+        "file": "experience-abstraction-all-cutscenes"
+      },
+      {
+        "slug": "experience-abstraction-new-cutscene",
+        "file": "experience-abstraction-new-cutscene"
+      },
+      {
+        "slug": "experience-abstraction-transformation-cutscenes",
+        "file": "experience-abstraction-transformation-cutscenes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "experience-abstraction-beginner-guide",
+        "file": "experience-abstraction-beginner-guide"
+      },
+      {
+        "slug": "experience-abstraction-guide",
+        "file": "experience-abstraction-guide"
+      },
+      {
+        "slug": "experience-abstraction-how-to-play",
+        "file": "experience-abstraction-how-to-play"
+      },
+      {
+        "slug": "experience-abstraction-tips-and-tricks",
+        "file": "experience-abstraction-tips-and-tricks"
+      },
+      {
+        "slug": "experience-abstraction-walkthrough",
+        "file": "experience-abstraction-walkthrough"
+      }
+    ],
+    "methods": [
+      {
+        "slug": "experience-abstraction-abstract-fast",
+        "file": "experience-abstraction-abstract-fast"
+      },
+      {
+        "slug": "experience-abstraction-abstracted-player-method",
+        "file": "experience-abstraction-abstracted-player-method"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-requirements",
+        "file": "experience-abstraction-abstraction-requirements"
+      },
+      {
+        "slug": "experience-abstraction-alone-method",
+        "file": "experience-abstraction-alone-method"
+      },
+      {
+        "slug": "experience-abstraction-darkness-method",
+        "file": "experience-abstraction-darkness-method"
+      },
+      {
+        "slug": "experience-abstraction-how-to-abstract",
+        "file": "experience-abstraction-how-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-sleep-method",
+        "file": "experience-abstraction-sleep-method"
+      },
+      {
+        "slug": "experience-abstraction-three-ways-to-abstract",
+        "file": "experience-abstraction-three-ways-to-abstract"
+      },
+      {
+        "slug": "experience-abstraction-transformation-method",
+        "file": "experience-abstraction-transformation-method"
+      }
+    ],
+    "survival": [
+      {
+        "slug": "experience-abstraction-abstracted-players",
+        "file": "experience-abstraction-abstracted-players"
+      },
+      {
+        "slug": "experience-abstraction-abstraction-warning",
+        "file": "experience-abstraction-abstraction-warning"
+      },
+      {
+        "slug": "experience-abstraction-how-to-avoid-abstraction",
+        "file": "experience-abstraction-how-to-avoid-abstraction"
+      },
+      {
+        "slug": "experience-abstraction-light-and-darkness",
+        "file": "experience-abstraction-light-and-darkness"
+      },
+      {
+        "slug": "experience-abstraction-survival-guide",
+        "file": "experience-abstraction-survival-guide"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "experience-abstraction-latest-update",
+        "file": "experience-abstraction-latest-update"
+      },
+      {
+        "slug": "experience-abstraction-second-update",
+        "file": "experience-abstraction-second-update"
+      },
+      {
+        "slug": "experience-abstraction-update-notes",
+        "file": "experience-abstraction-update-notes"
+      },
+      {
+        "slug": "experience-abstraction-update-release-date",
+        "file": "experience-abstraction-update-release-date"
+      }
+    ]
+  }
+}

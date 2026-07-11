@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Experience Abstraction: Ultimate Beginner Walkthrough & Guide",
+  description: "Master the mechanics of Experience Abstraction in Roblox. Learn how to trigger or resist abstraction, reach the Cellar, and survive the Digital Circus.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Experience+Abstraction+Guide",
+  date: "2026-07-12",
+  author: "experience abstraction Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Experience Abstraction** is a social horror experience where players navigate the digital circus environment.
+- **Three core methods** exist to trigger abstraction: isolation, staying in darkness, or proximity to already abstracted players.
+- **Survival requires** staying with the group, remaining in lit areas, and avoiding proximity to transformed entities.
+- **The Caine and Cellar sequence** is a post-abstraction event chain that rewards players with unique cinematic content.
+</Callout>
+
+<Section icon={Map} title="Understanding Abstraction Mechanics">
+
+The core gameplay of Experience Abstraction revolves around the delicate balance between staying human and succumbing to the digital void. Players must understand that transformation is not random; it is a calculated result of specific environmental and social conditions.
+
+**Video Highlights:**
+- Demonstrating the three primary triggers for transformation.
+- Showcasing the visual cues of the abstraction process.
+- Explaining how to maintain your state to trigger special events.
+
+<YouTubeEmbed videoId="nEvKC5YmJ_g" title="Experience Abstraction - Core Mechanics Guide" />
+
+| Condition | Risk Level | Effect |
+| :--- | :--- | :--- |
+| Isolation | High | Triggers abstraction when away from the group |
+| Prolonged Darkness | High | Initiates transformation in unlit corridors |
+| Player Proximity | Medium | Spreads the effect if near abstracted users |
+
+<Callout type="tip" title="Pro Tip">
+If you are trying to avoid abstraction, use the central circus floor as your primary hub. It is the most brightly lit area and provides the best visibility to spot incoming threats.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Abstraction Guide">
+
+If you are looking to trigger the transformation for research or to access the Caine sequence, follow these structured steps to ensure you meet the requirements correctly.
+
+<Steps>
+  <Step num="1" title="Select a Method">
+    Choose between isolation, darkness, or proximity to an abstracted player. Do not attempt to combine them unless you are comfortable with the speed of transformation.
+  </Step>
+  <Step num="2" title="Isolate Your Avatar">
+    For the isolation route, move away from the main gathering area. Ensure no other players are visible on your screen to maintain the condition.
+  </Step>
+  <Step num="3" title="Maintain the State">
+    Do not return to the light or rejoin the group. The transformation builds cumulatively over time; resetting your character will cancel the progress.
+  </Step>
+  <Step num="4" title="Observe the Transformation">
+    Once the threshold is met, your character will undergo the visual abstraction sequence. Do not leave the server at this stage.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Notice">
+Resetting your character or leaving the server during the transformation sequence will force you to restart the entire process from the beginning.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Strategies">
+
+Survival in this experience is about risk management. Players who understand the map layout can effectively avoid unwanted transformations while exploring the digital circus.
+
+<CardGrid cols={3}>
+  <Card title="Group Survival">
+    Stay with the main group to negate the isolation risk. This is the single most effective way to resist the void.
+  </Card>
+  <Card title="Light Management">
+    Always prioritize well-lit rooms. If a room's lights are off, treat it as a high-risk zone and exit immediately.
+  </Card>
+  <Card title="Distance Control">
+    Keep a safe distance from players who have already transitioned to the abstracted state to prevent accidental contagion.
+  </Card>
+</CardGrid>
+
+| Strategy | Recommended Area | Benefit |
+| :--- | :--- | :--- |
+| Grouping | Main Circus Floor | Prevents isolation-based triggers |
+| Illumination | Central Gathering Space | Reduces darkness-based risk |
+| Evasion | Peripheral Corridors | Minimizes contact with abstracted players |
+
+</Section>
+
+<Section icon={Trophy} title="Caine and Cellar Sequence">
+
+The Caine and Cellar sequence represents the late-game content for those who have successfully undergone abstraction. This sequence is not just a transformation; it is an event chain that leads to unique cinematic moments.
+
+<Checklist
+  id="event-checklist"
+  title="Sequence Milestones:"
+  items={[
+    "Successfully trigger the abstraction process",
+    "Remain in the server as an abstracted character",
+    "Wait for the Caine encounter to initiate",
+    "Observe the full cutscene without disconnecting",
+    "Follow the transition path into the Cellar"
+  ]}
+/>
+
+<Callout type="success" title="Success Note">
+Staying connected throughout the Caine encounter is vital. The Cellar transition is triggered automatically by the game engine once the animation concludes.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I avoid becoming abstracted?",
+    answer: "To resist abstraction, stay with the group, remain in well-lit areas, and keep your distance from players who have already transformed."
+  },
+  {
+    question: "Can I trigger the Caine sequence without being abstracted?",
+    answer: "No, the Caine sequence is specifically linked to the post-abstraction event chain. You must be in the abstracted state for it to occur."
+  },
+  {
+    question: "What should I do if the Cellar route fails?",
+    answer: "If the route fails, ensure you have not reset your character or left the session. Try repeating the sequence in a fresh server session."
+  }
+]} />
+
+</Section>

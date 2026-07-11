@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Experience Abstraction: Guía y recorrido definitivo para principiantes",
+  description: "Domina las mecánicas de Experience Abstraction en Roblox. Aprende a activar o resistir la abstracción, llegar al Sótano y sobrevivir al Circo Digital.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Experience+Abstraction+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Experience Abstraction"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Experience Abstraction** es una experiencia de terror social donde los jugadores navegan por el entorno del circo digital.
+- Existen **tres métodos principales** para activar la abstracción: el aislamiento, permanecer en la oscuridad o la proximidad a jugadores ya abstraídos.
+- La **supervivencia requiere** quedarse con el grupo, permanecer en áreas iluminadas y evitar la proximidad a entidades transformadas.
+- La **secuencia de Caine y el Sótano** es una cadena de eventos posterior a la abstracción que recompensa a los jugadores con contenido cinematográfico único.
+</Callout>
+
+<Section icon={Map} title="Comprender las mecánicas de abstracción">
+
+La jugabilidad principal de Experience Abstraction gira en torno al delicado equilibrio entre seguir siendo humano y sucumbir al vacío digital. Los jugadores deben entender que la transformación no es aleatoria; es el resultado calculado de condiciones ambientales y sociales específicas.
+
+**Puntos destacados del video:**
+- Demostración de los tres desencadenantes principales de la transformación.
+- Muestra de las señales visuales del proceso de abstracción.
+- Explicación de cómo mantener tu estado para activar eventos especiales.
+
+<YouTubeEmbed videoId="nEvKC5YmJ_g" title="Experience Abstraction - Guía de mecánicas principales" />
+
+| Condición | Nivel de riesgo | Efecto |
+| :--- | :--- | :--- |
+| Aislamiento | Alto | Activa la abstracción al alejarse del grupo |
+| Oscuridad prolongada | Alto | Inicia la transformación en pasillos sin iluminar |
+| Proximidad de jugadores | Medio | Propaga el efecto si se está cerca de usuarios abstraídos |
+
+<Callout type="tip" title="Consejo profesional">
+Si intentas evitar la abstracción, usa la pista central del circo como tu zona principal. Es el área más iluminada y ofrece la mejor visibilidad para detectar amenazas entrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso de la abstracción">
+
+Si buscas activar la transformación para investigar o para acceder a la secuencia de Caine, sigue estos pasos estructurados para asegurarte de cumplir correctamente con los requisitos.
+
+<Steps>
+  <Step num="1" title="Selecciona un método">
+    Elige entre el aislamiento, la oscuridad o la proximidad a un jugador abstraído. No intentes combinarlos a menos que te sientas cómodo con la velocidad de la transformación.
+  </Step>
+  <Step num="2" title="Aísla a tu avatar">
+    Para la ruta de aislamiento, aléjate de la zona de reunión principal. Asegúrate de que no haya otros jugadores visibles en tu pantalla para mantener la condición.
+  </Step>
+  <Step num="3" title="Mantén el estado">
+    No regreses a la luz ni te vuelvas a unir al grupo. La transformación se acumula con el tiempo; restablecer tu personaje cancelará el progreso.
+  </Step>
+  <Step num="4" title="Observa la transformación">
+    Una vez que se alcance el límite, tu personaje pasará por la secuencia visual de abstracción. No abandones el servidor en esta etapa.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso importante">
+Restablecer tu personaje o abandonar el servidor durante la secuencia de transformación te obligará a reiniciar todo el proceso desde el principio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de supervivencia">
+
+La supervivencia en esta experiencia se basa en la gestión de riesgos. Los jugadores que entienden el diseño del mapa pueden evitar eficazmente las transformaciones no deseadas mientras exploran el circo digital.
+
+<CardGrid cols={3}>
+  <Card title="Supervivencia en grupo">
+    Quédate con el grupo principal para anular el riesgo de aislamiento. Esta es la forma más eficaz de resistir al vacío.
+  </Card>
+  <Card title="Gestión de la luz">
+    Prioriza siempre las habitaciones bien iluminadas. Si las luces de una habitación están apagadas, trátala como una zona de alto riesgo y sal de inmediato.
+  </Card>
+  <Card title="Control de distancia">
+    Mantén una distancia segura de los jugadores que ya han pasado al estado abstraído para evitar el contagio accidental.
+  </Card>
+</CardGrid>
+
+| Estrategia | Área recomendada | Beneficio |
+| :--- | :--- | :--- |
+| Agrupamiento | Pista central del circo | Evita los desencadenantes basados en el aislamiento |
+| Iluminación | Espacio de reunión central | Reduce el riesgo basado en la oscuridad |
+| Evasión | Pasillos periféricos | Minimiza el contacto con jugadores abstraídos |
+
+</Section>
+
+<Section icon={Trophy} title="Secuencia de Caine y el Sótano">
+
+La secuencia de Caine y el Sótano representa el contenido de juego tardío para aquellos que han pasado con éxito por la abstracción. Esta secuencia no es solo una transformación; es una cadena de eventos que conduce a momentos cinematográficos únicos.
+
+<Checklist
+  id="event-checklist"
+  title="Hitos de la secuencia:"
+  items={[
+    "Activar con éxito el proceso de abstracción",
+    "Permanecer en el servidor como un personaje abstraído",
+    "Esperar a que se inicie el encuentro con Caine",
+    "Observar la escena completa sin desconectarse",
+    "Seguir la ruta de transición hacia el Sótano"
+  ]}
+/>
+
+<Callout type="success" title="Nota de éxito">
+Permanecer conectado durante todo el encuentro con Caine es vital. La transición al Sótano se activa automáticamente por el motor del juego una vez que concluye la animación.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito abstraerme?",
+    answer: "Para resistir la abstracción, quédate con el grupo, permanece en áreas bien iluminadas y mantén la distancia con los jugadores que ya se han transformado."
+  },
+  {
+    question: "¿Puedo activar la secuencia de Caine sin estar abstraído?",
+    answer: "No, la secuencia de Caine está vinculada específicamente a la cadena de eventos posterior a la abstracción. Debes estar en el estado abstraído para que ocurra."
+  },
+  {
+    question: "¿Qué debo hacer si falla la ruta del Sótano?",
+    answer: "Si la ruta falla, asegúrate de no haber restablecido tu personaje ni haber abandonado la sesión. Intenta repetir la secuencia en una nueva sesión de servidor."
+  }
+]} />
+
+</Section>

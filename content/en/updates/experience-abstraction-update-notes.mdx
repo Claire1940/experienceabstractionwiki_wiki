@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Experience Abstraction Update Notes: Caine & Cellar Secrets",
+  description: "Explore the latest Experience Abstraction update notes for Roblox. Learn verified methods to trigger abstraction, summon Caine, and access the Cellar.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9d174d/fff?text=Experience+Abstraction+Updates",
+  date: "2026-07-12",
+  author: "experience abstraction Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Learn the core conditions required to trigger your transformation under the latest update.
+- **Caine Sequence**: Remain in your transformed state to trigger the newly added Caine cinematic event.
+- **Cellar Access**: Follow the post-abstraction event chain to transition directly into the secret Cellar.
+- **Survival Strategy**: Resist the effects of isolation, darkness, and proximity to survive longer with your group.
+</Callout>
+
+<Section icon={Sparkles} title="Experience Abstraction Update Notes: Core Mechanics">
+
+The latest July 10, 2026 build of **Experience Abstraction** on Roblox introduces significant gameplay expansions, secret routes, and cinematic cutscenes inspired by *The Amazing Digital Circus*. This update focuses on three primary paths: mastering the deliberate transformation methods, surviving the rising horror elements, and unlocking the post-transformation sequence involving Caine and the Cellar.
+
+| Method | Core Condition | Build Speed | Interruption Trigger |
+|--------|----------------|-------------|----------------------|
+| **Isolation** | Stay away from the main server group | Medium | Regrouping with players |
+| **Darkness** | Stand in unlit rooms or corridors | Fast | Returning to bright light |
+| **Proximity** | Remain close to an abstracted player | Very Fast | Moving out of their range |
+
+<Callout type="warning" title="Transformation Rule">
+Do not reset your character or disconnect immediately after the transformation starts. Doing so will break the event chain and prevent you from accessing the newly added cutscenes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Trigger Abstraction Step-by-Step">
+
+To experience the full sequence added in the recent update, you must deliberately trigger your transformation. Follow these steps to complete the process efficiently.
+
+<Steps>
+  <Step num="1" title="Select Your Route">
+    Choose one of the three active methods: Isolation, Darkness, or Proximity. It is highly recommended to use a private room to combine both isolation and darkness for the fastest transformation speed.
+  </Step>
+  <Step num="2" title="Maintain the Condition">
+    Once you begin, stay in position. Do not run back to the central circus floor or turn on any lights, as this reset your progress back to zero.
+  </Step>
+  <Step num="3" title="Complete the Transformation">
+    Your avatar's model will warp and change into a dark, glitching humanoid shape. Once transformed, you are officially in the abstracted state and can now affect normal players.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+If you are playing with friends, have one player abstract first. The remaining group members can then stand near them to quickly trigger their own transformations via the proximity method.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Map Locations: Safe Zones vs Dark Areas">
+
+Navigating the updated map requires understanding which areas promote survival and which areas accelerate your descent into abstraction. Use this location breakdown to plan your routes.
+
+| Location | Risk Level | Primary Purpose | Lighting |
+|----------|------------|-----------------|----------|
+| **Main Circus Floor** | Low | Group gathering, safe exploration | High |
+| **Stage Area** | Low | Watching player movements, planning | High |
+| **Player Room Hallway** | Medium | Transitioning between rooms | Medium |
+| **Private Rooms** | High | Deliberate isolation & darkness | Toggleable |
+| **Dark Corridors** | High | Fast abstraction setups | None |
+| **The Cellar** | Special | Destination for transformed players | None |
+
+<CardGrid cols={3}>
+  <Card title="Bright Social Areas">
+    - **Main Circus Floor**
+    - High visibility
+    - Best for resisting isolation
+  </Card>
+  <Card title="High-Risk Dark Zones">
+    - **Private Rooms & Corridors**
+    - Lights can be switched off
+    - Accelerates darkness route
+  </Card>
+  <Card title="Sequence Locations">
+    - **The Cellar**
+    - Cutscene-only zone
+    - Requires Caine event chain
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Location Note">
+The Cellar cannot be accessed through standard walk-in doors during normal gameplay. It is strictly a sequence-only location tied to the post-abstraction storyline.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics: Resisting Abstraction">
+
+If your goal is to survive as a normal player for as long as possible, you must actively counter the three transformation triggers. Use the checklist below to coordinate with your server.
+
+<Checklist
+  id="survival-checklist"
+  title="Daily Survival Goals:"
+  items={[
+    "Always stay within visual range of at least two other players.",
+    "Avoid entering private rooms alone or staying in unlit hallways.",
+    "Flee immediately if a glitched, transformed player approaches your area.",
+    "Establish a central regroup point on the Main Circus Floor."
+  ]}
+/>
+
+<Callout type="success" title="Group Buff">
+Staying in a tight group of three or more players completely halts the isolation meter, making it the most reliable way to survive prolonged rounds.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Caine and Cellar Event Sequence">
+
+The highlight of the July 10, 2026 update is the expanded post-transformation sequence. Players who successfully transform can trigger a meeting with Caine and gain entry to the Cellar.
+
+| Event Stage | Action Required | Visual Outcome |
+|-------------|-----------------|----------------|
+| **1. Post-Transformation** | Stay in the server as an abstracted entity | Glitched avatar state |
+| **2. Caine's Arrival** | Wait for the server event to trigger | Caine spawns nearby |
+| **3. Cinematic Cutscene** | Do not move or reset during the scene | Custom cinematic plays |
+| **4. Cellar Transition** | Let the animation finish completely | Teleportation to the Cellar |
+
+<Steps>
+  <Step num="1" title="Trigger Abstraction">
+    Complete any of the three standard transformation methods to convert your character.
+  </Step>
+  <Step num="2" title="Wait for Caine">
+    Remain active in the server. Do not reset. Caine will appear to address your transformed state.
+  </Step>
+  <Step num="3" title="Enter the Cellar">
+    Watch the updated cinematic sequence to the end. Your character will automatically transition into the Cellar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Event Disruption">
+Resetting your character, leaving the server, or attempting to clip through walls during the Caine cinematic will instantly break the event chain, forcing you to restart from step one.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Experience Abstraction FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the core changes in the latest Experience Abstraction update notes?",
+    answer: "The latest update refines the three core transformation methods (isolation, darkness, and proximity), introduces an updated Caine cinematic cutscene, and stabilizes the transition sequence into the Cellar."
+  },
+  {
+    question: "How do I access the Cellar?",
+    answer: "You cannot walk into the Cellar normally. You must first undergo the abstraction transformation, remain in the server, wait for the Caine event to trigger, and let the cinematic transition teleport you there."
+  },
+  {
+    question: "Can I stop the abstraction process once it starts?",
+    answer: "Yes. If you quickly return to a brightly lit area or regroup with other players, your abstraction meter will begin to drain, reversing the process."
+  },
+  {
+    question: "Are there any active promo codes in this update?",
+    answer: "Currently, Experience Abstraction does not feature an active code redemption system. Be cautious of unofficial sites claiming to offer free codes."
+  }
+]} />
+
+<Callout type="info" title="Disclaimer">
+Experience Abstraction is an unofficial, fan-made Roblox game inspired by The Amazing Digital Circus (TADC) by Glitch Productions. This site is an unofficial fan resource and is not affiliated with the developers or Glitch Productions.
+</Callout>
+
+</Section>

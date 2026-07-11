@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos do Porão em Experience Abstraction: Desbloquear Áreas Secretas",
+  description: "Saiba quais são os requisitos exatos do porão em Experience Abstraction no Roblox. Siga nossos passos de progressão para ativar a sequência do Caine e entrar no Porão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Cellar+Requirements+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de Experience Abstraction"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Acesso ao Porão**: Chegar ao Porão exige a conclusão de **requisitos específicos do porão em experience abstraction**, em vez da exploração normal do mapa.
+- **Pré-requisito de Transformação**: Você deve concluir totalmente o processo de abstração primeiro; não é possível entrar no Porão na forma humana.
+- **Sequência do Caine**: Depois de se transformar, você deve permanecer no servidor e esperar que Caine apareça para iniciar a transição.
+- **Contraste de Sobrevivência**: Ao explorar, os jogadores podem escolher resistir à abstração usando táticas de grupo ou ativá-la deliberadamente para progredir.
+</Callout>
+
+<Section icon={Map} title="Entendendo os Requisitos do Porão em Experience Abstraction">
+
+O Porão (Cellar) é um local muito procurado e bloqueado por sequência no sucesso de terror social do Roblox, Experience Abstraction (desenvolvido por pawlooz). Ao contrário dos mapas padrão do Roblox, onde salas secretas são acessadas por portas ocultas ou paredes invisíveis, chegar ao Porão é totalmente baseado em progressão. Para desbloquear esta zona escura, você deve cumprir os **requisitos exatos do porão em experience abstraction** ao concluir uma transformação completa de personagem.
+
+Como o jogo é inspirado em *The Amazing Digital Circus* (TADC) da Glitch Productions, a transição imita a queda de um personagem corrompido. Você não pode andar, atravessar paredes ou pular para dentro do Porão como um jogador normal. O motor do jogo só carrega a transição do Porão quando seu avatar passa por uma mudança completa de estado.
+
+| Tipo de Requisito | Condição Pré-requisito | Resultado Esperado |
+|---|---|---|
+| **Requisito de Estado** | Conclua 1 de 3 métodos de Abstração | O personagem entra no estado Abstraído |
+| **Requisito de Servidor** | Não dê reset nem saia após se transformar | Mantém a cadeia de eventos ativa |
+| **Requisito de NPC** | Ative e assista à sequência do Caine | Inicia o teleporte cinematográfico |
+| **Destino do Local** | Conclusão bem-sucedida da transição | Surge (spawn) dentro do Porão escuro |
+
+<Callout type="warning" title="Aviso de Progressão">
+Dar reset no seu personagem, ressurgir ou desconectar do servidor imediatamente após se transformar quebrará o ciclo de eventos. Se você quebrar a cadeia, terá que reiniciar todo o processo de abstração do início.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Caminho Passo a Passo para o Porão">
+
+Para cumprir com sucesso os **requisitos do porão em experience abstraction**, os jogadores devem seguir um caminho de progressão estrito e linear. A cadeia de eventos começa com a transformação deliberada e termina com a transição cinematográfica para o Porão.
+
+<Steps>
+  <Step num="1" title="Ativar a Abstração do Personagem">
+    Selecione um dos três métodos de abstração confirmados: isole-se do grupo, permaneça em uma sala completamente escura ou fique ao lado de um jogador que já esteja abstraído. Mantenha este estado até que a cena de transformação comece.
+  </Step>
+  <Step num="2" title="Manter o Estado Abstraído">
+    Assim que seu avatar se transformar na forma abstraída poligonal e cheia de olhos, não toque no botão de reset. Você deve permanecer ativo no servidor como uma entidade abstraída.
+  </Step>
+  <Step num="3" title="Esperar pelo Encontro com Caine">
+    Permaneça na área jogável do circo. Caine eventualmente aparecerá em resposta à sua abstração. Esta sequência cinematográfica é necessária para levar seu personagem do salão principal para as profundezas ocultas.
+  </Step>
+  <Step num="4" title="Concluir a Transição do Porão">
+    Permita que a animação do Caine termine por completo sem sair do jogo. Assim que a sequência for concluída, o jogo transferirá automaticamente seu personagem diretamente para o Porão.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Mestre">
+A maneira mais rápida de ativar a abstração inicial é combinando métodos. Entre em uma sala privada, apague as luzes para criar escuridão e garanta que nenhum outro jogador o siga para ativar a condição de isolamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Sobrevivência vs. Abstração">
+
+Em Experience Abstraction, os jogadores enfrentam constantemente uma escolha: resistir à corrupção para socializar ou ceder a ela para desbloquear cenas e locais secretos como o Porão. Entender como gerenciar seu medidor de abstração é a chave para controlar sua experiência de jogo.
+
+<CardGrid cols={3}>
+  <Card title="Resistindo à Abstração">
+    - **Fique perto** do grupo principal
+    - Mantenha os corredores **bem iluminados**
+    - **Corra para longe** de jogadores transformados
+  </Card>
+  <Card title="Abstração Deliberada">
+    - Procure por **cantos isolados**
+    - Desligue os **interruptores de luz** das salas
+    - **Siga** entidades abstraídas ativas
+  </Card>
+  <Card title="Progressão do Porão">
+    - Exige **100% de Abstração**
+    - Deve ativar o **evento do Caine**
+    - Desbloqueia **cenas de história exclusivas**
+  </Card>
+</CardGrid>
+
+Para ajudar você a gerenciar esses estados, consulte os níveis de risco ambiental pelo mapa:
+
+| Localização do Mapa | Estado Ambiental Primário | Nível de Risco de Abstração | Melhor Utilizado Para |
+|---|---|---|---|
+| **Salão Principal do Circo** | Iluminado / Muito Populado | Risco Baixo | Socialização e Sobrevivência |
+| **Corredor dos Quartos dos Jogadores** | Luz Moderada / Transição | Risco Médio | Reagrupamento / Movimentação |
+| **Quartos Privados** | Luz Interruptível / Isolado | Risco Alto | Preparação Rápida de Abstração |
+| **Corredores Escuros** | Sem Iluminação / Estreito | Risco Alto | Abstração Passiva |
+| **O Porão** | Zona Escura Apenas por Sequência | Máximo (Apenas Abstraídos) | Finalização da Cadeia de Eventos |
+
+<Callout type="success" title="Coordenação de Grupo">
+Se você estiver jogando com amigos, vocês podem se revezar para abstrair. Ter um jogador que permanece humano enquanto outro abstrai permite testar com segurança o método de proximidade sem se perderem no servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Progressão do Porão">
+
+Antes de tentar chegar ao Porão, use este checklist para garantir que o ambiente do seu servidor e o estado do seu personagem estejam ideais para concluir a cadeia de eventos.
+
+<Checklist
+  id="cellar-checklist"
+  title="Checklist de Pré-requisitos do Porão:"
+  items={[
+    "Verifique se você está em um servidor multijogador ativo",
+    "Localize uma sala escura ou corredor privado para iniciar o processo",
+    "Certifique-se de que seu personagem esteja totalmente transformado no estado abstraído",
+    "Evite dar reset ou usar o menu de ressurgimento durante a transição",
+    "Permita que a sequência cinematográfica do Caine aconteça sem interrupções"
+  ]}
+/>
+
+<Callout type="info" title="Nota de Atualização">
+De acordo com a versão mais recente de 10 de julho de 2026, o desenvolvedor pawlooz otimizou os tempos de transição, fazendo com que a sequência do Caine pós-abstração seja ativada um pouco mais rápido do que nas atualizações anteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são os requisitos exatos do porão em experience abstraction?",
+    answer: "Para chegar ao Porão, você deve abstrair totalmente seu personagem usando isolamento, escuridão ou proximidade com um jogador abstraído. Depois, você deve permanecer no servidor sem dar reset e esperar que a sequência do Caine inicie a transição automática."
+  },
+  {
+    question: "Posso entrar no Porão sem me transformar?",
+    answer: "Não. O Porão é um local bloqueado por sequência. Não há nenhuma porta física ou caminho aberto que permita aos jogadores humanos normais entrarem durante a jogabilidade padrão."
+  },
+  {
+    question: "O que acontece se eu dar reset no meu personagem após me transformar?",
+    answer: "Dar reset no seu personagem limpa seu estado abstraído e o retorna à forma humana, o que quebra imediatamente a cadeia de eventos. Você terá que reiniciar o processo de abstração."
+  },
+  {
+    question: "O Caine aparece imediatamente após eu me transformar?",
+    answer: "Nem sempre. Pode ser necessário esperar no servidor por um curto período como um personagem abstraído antes que o evento do Caine seja ativado e inicie a transição para o Porão."
+  }
+]} />
+
+</Section>

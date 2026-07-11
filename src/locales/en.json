@@ -10,7 +10,157 @@
       "twitterDescription": "Experience Abstraction Wiki with verified abstraction methods, Caine and Cellar walkthroughs, character help, map locations, updates, and Roblox guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "methods": "Methods",
+    "caine": "Caine",
+    "cellar": "Cellar",
+    "survival": "Survival",
+    "guide": "Guide",
+    "cutscenes": "Cutscenes",
+    "updates": "Updates"
+  },
+  "pages": {
+    "methods": {
+      "title": "Experience Abstraction Methods",
+      "description": "Every confirmed way to trigger abstraction in Experience Abstraction, with step-by-step conditions, timing, and state changes for each method.",
+      "metaTitle": "Experience Abstraction Methods - How to Abstract Fast",
+      "metaDescription": "Learn every working Experience Abstraction method: isolation, darkness, and the abstracted-player trigger. Step-by-step conditions, timing, and survival tips.",
+      "categoryLabel": "ABSTRACTION METHODS",
+      "whatIs": "What Are Abstraction Methods?",
+      "whatIsDescription": "Abstraction methods are the confirmed ways a player transforms into an abstracted state in Experience Abstraction. Each method is driven by a specific trigger — staying isolated, lingering in darkness, or approaching an already-abstracted player — and once it begins the transformation follows a fixed sequence of visible state changes.",
+      "why": "Why Learn Abstraction Methods?",
+      "whySteps": {
+        "step1Title": "Trigger the Right Conditions",
+        "step1Description": "Each method depends on a precise setup, from isolating yourself in an empty room to seeking out a dark area or an abstracted player.",
+        "step2Title": "Read the State Changes",
+        "step2Description": "Recognize the early warning signs so you know exactly when the transformation is starting and how much time you have left.",
+        "step3Title": "Control the Outcome",
+        "step3Description": "Trigger abstraction on purpose to explore restricted areas, or reverse it using the survival methods in our guide."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Methods"
+    },
+    "caine": {
+      "title": "Experience Abstraction Caine",
+      "description": "How to find and unlock Caine in Experience Abstraction, including requirements, trigger steps, cutscenes, and transformation details.",
+      "metaTitle": "Experience Abstraction Caine - How to Get & Unlock",
+      "metaDescription": "Complete Caine guide for Experience Abstraction: unlock requirements, trigger steps, cutscene walkthrough, and full transformation details.",
+      "categoryLabel": "CAINE",
+      "whatIs": "Who Is Caine?",
+      "whatIsDescription": "Caine is a central character in Experience Abstraction tied to exclusive cutscenes and a unique transformation. Encountering him requires meeting specific in-game conditions and following a fixed sequence of steps.",
+      "why": "Why Pursue Caine?",
+      "whySteps": {
+        "step1Title": "Meet the Requirements",
+        "step1Description": "Fulfill the conditions that make the Caine encounter available in your current session.",
+        "step2Title": "Follow the Trigger Steps",
+        "step2Description": "Complete each step in the correct order to reach Caine and unlock his cutscene.",
+        "step3Title": "Watch the Transformation",
+        "step3Description": "Experience the full Caine cutscene and the transformation sequence that follows."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Caine Guides"
+    },
+    "cellar": {
+      "title": "Experience Abstraction Cellar",
+      "description": "How to reach the Cellar in Experience Abstraction, including entrance locations, route walkthroughs, requirements, and what you find inside.",
+      "metaTitle": "Experience Abstraction Cellar - Location & How to Get There",
+      "metaDescription": "Find the Cellar in Experience Abstraction: entrance locations, step-by-step routes, Caine prerequisites, and what waits inside the cellar.",
+      "categoryLabel": "CELLAR",
+      "whatIs": "What Is the Cellar?",
+      "whatIsDescription": "The Cellar is a hidden area in Experience Abstraction that requires specific conditions and a precise route to reach. Getting there often involves the Caine encounter and a descent through dark, disorienting passages.",
+      "why": "Why Explore the Cellar?",
+      "whySteps": {
+        "step1Title": "Unlock the Entrance",
+        "step1Description": "Complete the prerequisite steps, including any Caine-related triggers, that open the path to the Cellar.",
+        "step2Title": "Follow the Route",
+        "step2Description": "Navigate the correct corridors step by step and avoid the common wrong turns that reset your progress.",
+        "step3Title": "Reach the Interior",
+        "step3Description": "Enter the Cellar and explore the cutscene and content waiting inside."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Cellar Guides"
+    },
+    "survival": {
+      "title": "Experience Abstraction Survival",
+      "description": "How to avoid and delay abstraction in Experience Abstraction, with strategies for staying human in the light, in groups, and away from abstracted players.",
+      "metaTitle": "Experience Abstraction Survival - How to Avoid Abstraction",
+      "metaDescription": "Survive longer in Experience Abstraction: stay in the light, stick with other players, and keep away from abstracted characters to avoid transformation.",
+      "categoryLabel": "SURVIVAL",
+      "whatIs": "What Is Survival?",
+      "whatIsDescription": "Survival in Experience Abstraction means reversing the three abstraction triggers: staying near other players, remaining in lit areas, and avoiding contact with abstracted characters. Each tactic directly counters one of the transformation methods.",
+      "why": "Why Learn Survival?",
+      "whySteps": {
+        "step1Title": "Stay in the Light",
+        "step1Description": "Keep to lit areas and avoid lingering in darkness, since darkness is one of the confirmed abstraction triggers.",
+        "step2Title": "Stick Together",
+        "step2Description": "Stay close to other players, because isolation is another trigger that speeds up the transformation.",
+        "step3Title": "Avoid the Abstracted",
+        "step3Description": "Keep your distance from players who are already abstracted to prevent the contact trigger from starting."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Survival Guides"
+    },
+    "guide": {
+      "title": "Experience Abstraction Guide",
+      "description": "Beginner-friendly guides for Experience Abstraction, covering first steps, objectives, basic controls, and common mistakes new players make.",
+      "metaTitle": "Experience Abstraction Guide - Beginner Tips & How to Play",
+      "metaDescription": "Start strong in Experience Abstraction: beginner walkthrough, objectives, basic controls, how to spot danger, and common mistakes to avoid.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What Is the Beginner Guide?",
+      "whatIsDescription": "The beginner guide covers everything a first-time player needs in Experience Abstraction: how to start, what the objectives are, how the core mechanics work, and how to recognize the danger states before it is too late.",
+      "why": "Why Read the Guide?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand movement, objectives, and the core abstraction mechanic before exploring deeper.",
+        "step2Title": "Spot the Danger",
+        "step2Description": "Recognize the warning signs of abstraction so you can react before the transformation begins.",
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Skip the errors most new players make and progress faster with proven strategies."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "cutscenes": {
+      "title": "Experience Abstraction Cutscenes",
+      "description": "Every cutscene in Experience Abstraction, including the abstraction, transformation, and Caine sequences, with what triggers each one.",
+      "metaTitle": "Experience Abstraction Cutscenes - All Story Scenes",
+      "metaDescription": "Watch and unlock every Experience Abstraction cutscene: abstraction, transformation, new scenes, and the Caine sequence with trigger conditions.",
+      "categoryLabel": "CUTSCENES",
+      "whatIs": "What Are the Cutscenes?",
+      "whatIsDescription": "Cutscenes in Experience Abstraction are scripted story scenes triggered by specific events, such as abstracting, transforming, or encountering Caine. Each one reveals more of the game's narrative and dark circus atmosphere.",
+      "why": "Why Watch the Cutscenes?",
+      "whySteps": {
+        "step1Title": "Trigger Each Scene",
+        "step1Description": "Learn the exact conditions that start every cutscene so you do not miss any of them.",
+        "step2Title": "Follow the Story",
+        "step2Description": "Piece together the narrative behind the digital circus and the abstraction phenomenon.",
+        "step3Title": "Catch the New Scenes",
+        "step3Description": "Stay up to date with the cutscenes added in each new update."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Cutscenes"
+    },
+    "updates": {
+      "title": "Experience Abstraction Updates",
+      "description": "Every Experience Abstraction update in one place, with patch notes, new content, release dates, and changes to abstraction, Caine, and the map.",
+      "metaTitle": "Experience Abstraction Updates - Patch Notes & New Content",
+      "metaDescription": "Track every Experience Abstraction update: patch notes, new cutscenes and characters, release dates, and changes to abstraction and the map.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What Are the Updates?",
+      "whatIsDescription": "The updates section tracks every change the developer ships to Experience Abstraction, including new cutscenes, characters, routes, balance changes, and fixes, organized by version and release date.",
+      "why": "Why Follow the Updates?",
+      "whySteps": {
+        "step1Title": "See What Changed",
+        "step1Description": "Read the patch notes for each version to understand new content and balance changes.",
+        "step2Title": "Find New Content",
+        "step2Description": "Discover new cutscenes, characters, and routes as soon as they are added.",
+        "step3Title": "Plan Around Release Dates",
+        "step3Description": "Stay ahead of upcoming features and know exactly when each update goes live."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Updates"
+    }
+  },
   "common": {
     "home": "Home",
     "more": "More",

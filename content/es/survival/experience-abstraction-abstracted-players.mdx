@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugadores abstraídos de Experience Abstraction: Guía de Transformación 2026",
+  description: "Domina las mecánicas de Experience Abstraction. Aprende cómo los jugadores se abstraen, gestionan los medidores de cordura y activan el evento secreto de Caine en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Experience+Abstraction+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Experience Abstraction",
+  keywords: "experience abstraction, roblox, jugadores abstraídos, medidor de cordura, caine, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los jugadores abstraídos de Experience Abstraction** deben vigilar su medidor de cordura constantemente para controlar cuándo ocurre la transformación.
+- **Existen tres métodos de transformación**: apagar las luces en las habitaciones de los jugadores, subir a la torre alta o estar cerca de jugadores que ya están abstraídos.
+- **La forma abstraída** otorga a los jugadores la capacidad de atacar a otros, pero eventualmente conduce a un evento permanente en "El Sótano" (The Cellar).
+- **Los comandos de chat secretos**, como escribir "Caine", pueden activar apariciones e interacciones de personajes únicos dentro del mundo del juego.
+</Callout>
+
+<Section icon={Map} title="Descripción general de la jugabilidad de Experience Abstraction">
+
+Experience Abstraction es un juego de fans surrealista de Roblox fuertemente inspirado en la estética y los temas de "The Amazing Digital Circus". En este entorno, los jugadores navegan por un paisaje psicológico donde el objetivo principal es la supervivencia, aunque la mecánica más intrigante involucra el descenso a la locura. El juego desafía a los jugadores a equilibrar su cordura frente al tentador poder del estado abstraído. Ya sea que juegues en un servidor público o pruebes mecánicas en un lobby privado, comprender los activadores ambientales es esencial para dominar el ciclo de juego.
+
+**Puntos destacados del video:**
+- Descripción visual del diseño del mapa y las habitaciones de los jugadores inspirados en "The Amazing Digital Circus".
+- Demostración del proceso de agotamiento del medidor de cordura en tiempo real.
+- Guía visual paso a paso sobre las tres formas principales de lograr la abstracción.
+- Imágenes del evento "El Sótano" (The Cellar) y la interacción secreta del chat con Caine.
+
+<YouTubeEmbed videoId="ZUscG9QbM2E" title="Me volví ABSTRAÍDO... Luego Caine hizo ESTO. | Experience Abstraction (Roblox)" />
+
+| Característica | Descripción | Impacto en el juego |
+| :--- | :--- | :--- |
+| Medidor de Cordura | Indicador en la parte inferior que rastrea la estabilidad mental | Activa la transformación al llegar a cero |
+| Habitaciones de Jugadores | Espacios personales personalizables para cada jugador | Ubicación principal para el drenaje basado en la luz |
+| La Torre | Estructura de gran altitud para una pérdida rápida de cordura | La forma más rápida de alcanzar el estado abstraído |
+| El Sótano (The Cellar) | Área inquietante del final del juego para jugadores abstraídos | Requiere un reaparecimiento manual para salir |
+
+<Callout type="warning" title="Advertencia de Fotosensibilidad">
+Este juego contiene luces intermitentes frecuentes, efectos estroboscópicos e intensas escenas psicodélicas. Si tienes antecedentes de convulsiones o sensibilidad a la luz, ten extrema precaución o evita jugar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Métodos para jugadores abstraídos de Experience Abstraction">
+
+Convertirse en una entidad abstraída es un objetivo central para muchos jugadores que buscan explorar el lado más oscuro del circo. Existen tres vías distintas para lograr esta transformación, cada una con diferente velocidad y riesgo. Para los **jugadores abstraídos de Experience Abstraction**, la elección del método a menudo depende de su ubicación actual en el mapa y de si juegan solos o en grupo.
+
+<CardGrid cols={3}>
+  <Card title="Método de la Habitación Oscura">
+    - **Ubicación**: Habitación personal del jugador
+    - **Acción**: Apagar todas las luces
+    - **Tiempo**: Aproximadamente 3 minutos
+    - **Riesgo**: Bajo peligro ambiental
+  </Card>
+  <Card title="El Ascenso a la Torre">
+    - **Ubicación**: Torre central alta
+    - **Acción**: Subir hasta la cima
+    - **Tiempo**: El agotamiento rápido comienza en la cima
+    - **Riesgo**: Alta visibilidad para otros
+  </Card>
+  <Card title="El Método de Infección">
+    - **Ubicación**: Cualquier parte del mapa
+    - **Acción**: Estar cerca de amigos abstraídos
+    - **Tiempo**: Depende de la proximidad
+    - **Riesgo**: Alto potencial de daño
+  </Card>
+</CardGrid>
+
+| Método | Velocidad | Complejidad | Recomendado para |
+| :--- | :--- | :--- | :--- |
+| Habitación Oscura | Lento | Muy Baja | Principiantes / Jugadores AFK |
+| Ascenso a la Torre | Rápido | Media | Speedrunners |
+| Proximidad de Amigos | Variable | Alta | Grupos multijugador |
+
+<Callout type="tip" title="Consejo de Estrategia">
+Si quieres probar las mecánicas sin interferencias, usa un servidor privado. Esto te permite monitorear el medidor de cordura sin la amenaza de que otros jugadores te ataquen durante la vulnerable fase de transición.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de transformación paso a paso">
+
+La transición de un jugador estándar a una entidad abstraída no es instantánea. Requiere una gestión deliberada del medidor de cordura. Una vez que el medidor se agota por completo, comienza la transformación física, envolviendo el avatar del jugador en una sustancia oscura similar a un glitch. Seguir estos pasos garantiza que actives el evento con éxito sin reiniciar accidentalmente tu progreso.
+
+<Steps>
+  <Step num="1" title="Selecciona tu método">
+    Elige entre los métodos de Habitación Oscura, Torre o Infección basándote en la población actual del servidor y tus objetivos.
+  </Step>
+  <Step num="2" title="Monitorea el Medidor de Cordura">
+    Vigila de cerca el indicador en la parte inferior de la pantalla. Asegúrate de que tu salud se mantenga alta, ya que morir antes de que el medidor llegue a cero reiniciará tu cordura.
+  </Step>
+  <Step num="3" title="Inicia la Envoltura">
+    Una vez que el medidor esté vacío, quédate quieto. Verás cómo la forma abstraída envuelve lentamente el cuerpo de tu personaje en una secuencia visualmente impresionante.
+  </Step>
+  <Step num="4" title="Entra en el Estado Abstraído">
+    Una vez transformado por completo, tu velocidad de movimiento y capacidades de ataque cambiarán. Ahora puedes dañar a otros jugadores y explorar el mapa como un monstruo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Detalle Mecánico">
+El proceso de transformación es tanto visual como mecánico. Mientras estás en la fase de "envoltura", sigues siendo vulnerable. Asegúrate de estar en un lugar seguro si no quieres ser interrumpido por jugadores agresivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivir al estado abstraído y al Sótano">
+
+Después de convertirte en un **jugador abstraído de Experience Abstraction**, la jugabilidad cambia de la supervivencia a la depredación. Sin embargo, este poder viene con un temporizador oculto. Si un jugador permanece en la forma abstraída durante aproximadamente cinco minutos, ocurre un evento repentino que lo transporta a un lugar conocido como "El Sótano" (The Cellar). Esta área es un vacío desolado e inquietante que sirve como destino final para aquellos que han perdido completamente la cordura.
+
+| Estado | Habilidades | Limitaciones |
+| :--- | :--- | :--- |
+| Jugador Normal | Interacción, Personalización | Salud baja, Drenaje de cordura |
+| Abstraído | Gran daño, Intimidación | Temporizador de 5 minutos, Sin salida |
+| Confinado al Sótano | Ninguna | Atrapado indefinidamente |
+
+<Checklist
+  id="abstracted-actions"
+  title="Objetivos del jugador abstraído:"
+  items={[
+    "Enfrentarse y dañar a otros jugadores para probar su fuerza",
+    "Explorar áreas del mapa inaccesibles para jugadores normales",
+    "Monitorear el temporizador oculto del evento de 5 minutos",
+    "Prepararse para la inevitable transición al Sótano",
+    "Usar el menú de reaparición para volver al estado normal"
+  ]}
+/>
+
+<Callout type="success" title="Descubrimiento Pro">
+Mientras estás atrapado en el Sótano, no hay una salida física ni un activador de evento para escapar. La única forma de regresar al circo y recuperar tu forma humana es usar el botón 'Respawn' (Reaparecer) en el menú del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Interacciones secretas y eventos de Caine">
+
+Experience Abstraction incluye varios huevos de pascua que rinden homenaje a su material de origen. Uno de los secretos más destacados involucra al personaje Caine. Al interactuar con el sistema de chat del juego, los jugadores pueden activar respuestas o apariciones específicas que añaden a la atmósfera surrealista del circo digital.
+
+| Activador de Chat | Resultado | Personaje |
+| :--- | :--- | :--- |
+| Escribir 'Caine' | Respuesta de chat instantánea | Caine |
+| Interruptor de Luz | Inicio del drenaje de cordura | Entorno |
+| Flecha de Habitación | Acceso al piso superior | Navegación |
+
+**Guía de Interacción:**
+- **Interacción con Caine**: Escribe "Caine" en el cuadro de chat. El personaje responderá con "¿Sí?" (Yeah?) u otros diálogos, confirmando su presencia en la simulación.
+- **Personalización de Habitación**: Usa el botón "Customize" (Personalizar) en tu habitación personal para cambiar colores y estética, aunque esto no afecta la velocidad de drenaje de cordura.
+- **Navegación**: Sigue los indicadores de flecha en las puertas para encontrar los pasillos del piso superior donde se encuentran la mayoría de las habitaciones de los jugadores.
+
+<Callout type="tip" title="Consejo de Huevo de Pascua">
+Intenta escribir nombres de diferentes personajes de la serie en el chat. Aunque Caine es el que más responde, los desarrolladores suelen añadir activadores temporales para otros personajes durante las actualizaciones estacionales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes de Experience Abstraction">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto tiempo tardan los jugadores de Experience Abstraction en transformarse?",
+    answer: "Usando el método de la habitación oscura, normalmente toma unos tres minutos para que el medidor de cordura se agote por completo y active la secuencia de abstracción."
+  },
+  {
+    question: "¿Puedo escapar del Sótano sin reaparecer?",
+    answer: "No, el Sótano está diseñado como un área sin salida. Una vez que entras en este lugar inquietante, estás atrapado indefinidamente a menos que elijas reaparecer a través del menú."
+  },
+  {
+    question: "¿Afecta la salud al medidor de cordura?",
+    answer: "Sí. Si tu salud se agota antes de que tu medidor de cordura esté completamente vacío, tu cordura se reiniciará al reaparecer, obligándote a comenzar el proceso de nuevo."
+  },
+  {
+    question: "¿Qué puedo hacer mientras estoy en la forma abstraída?",
+    answer: "En la forma abstraída, ganas la habilidad de atacar y dañar a otros jugadores, convirtiéndote efectivamente en una entidad hostil dentro del servidor durante cinco minutos."
+  }
+]} />
+
+</Section>
