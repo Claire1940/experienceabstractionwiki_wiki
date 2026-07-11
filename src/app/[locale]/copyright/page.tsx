@@ -9,12 +9,12 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://experienceabstractionwiki.wiki'
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - Lucid Blocks Wiki',
-    description: 'Copyright and intellectual property information for Lucid Blocks Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - Experience Abstraction Wiki',
+    description: 'Copyright and intellectual property information for Experience Abstraction Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'Lucid Blocks Wiki',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
-      description: 'Copyright and intellectual property information for Lucid Blocks Wiki.',
+      siteName: 'Experience Abstraction Wiki',
+      title: 'Copyright Notice - Experience Abstraction Wiki',
+      description: 'Copyright and intellectual property information for Experience Abstraction Wiki.',
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: 'Lucid Blocks Wiki',
+          alt: 'Experience Abstraction Wiki',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - Lucid Blocks Wiki',
+      title: 'Copyright Notice - Experience Abstraction Wiki',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/og-image.jpg`],
     },
@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: July 12, 2026
           </p>
         </div>
       </section>
@@ -77,32 +77,33 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 Lucid Blocks Wiki. All rights reserved.
+              © 2025-2026 Experience Abstraction Wiki. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of Lucid Blocks Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of Experience Abstraction Wiki and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              Lucid Blocks Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              Experience Abstraction Wiki is an <strong>unofficial, fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Lucid Blocks Developers</strong> - Creators of the Lucid Blocks game</li>
+              <li><strong>Roblox Corporation</strong> - Owner of the Roblox platform</li>
+              <li><strong>pawlooz</strong> - Developer of the Experience Abstraction game on Roblox</li>
+              <li><strong>Glitch Productions</strong> - Creator of The Amazing Digital Circus (TADC), the animated series that inspired the game</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
             </p>
             <ul>
-              <li>Character images and artwork</li>
+              <li>Character images and artwork (including Caine and abstracted forms)</li>
               <li>Game screenshots and interface elements</li>
               <li>Game logos and branding</li>
-              <li>Character names and abilities</li>
-              <li>In-game items and mechanics</li>
+              <li>Character names, rooms, and mechanics</li>
+              <li>In-game items, cutscenes, and locations such as the Cellar</li>
             </ul>
             <p>
               ...are the intellectual property of their respective owners. We use such content under the principles
@@ -152,14 +153,15 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Lucid Blocks</strong> - Trademark of the game developers</li>
-              <li><strong>Lucid Blocks Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>Experience Abstraction</strong> - Game name and branding of the developer pawlooz</li>
+              <li><strong>The Amazing Digital Circus (TADC)</strong> - Trademark of Glitch Productions</li>
+              <li><strong>Experience Abstraction Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with Lucid Blocks Wiki.
+              affiliation with Experience Abstraction Wiki.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -201,8 +203,8 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              Lucid Blocks Wiki<br />
-              Email: <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              Experience Abstraction Wiki<br />
+              Email: <a href="mailto:dmca@experienceabstractionwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@experienceabstractionwiki.wiki</a>
             </p>
             <p>
               <strong>Note:</strong> Please allow up to 7 business days for a response. Misrepresentation in a
@@ -238,12 +240,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "Lucid Blocks Wiki"</li>
+              <li>Provide clear attribution to &quot;Experience Abstraction Wiki&quot;</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: Lucid Blocks Wiki (lucidblocks.wiki)"</em>
+              Example attribution: <em>&quot;Source: Experience Abstraction Wiki (experienceabstractionwiki.wiki)&quot;</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
@@ -263,7 +265,7 @@ export default function Copyright() {
             <h2>10. Changes to This Notice</h2>
             <p>
               We reserve the right to update this Copyright Notice at any time. Changes will be effective immediately
-              upon posting to the website. The "Last Updated" date at the top of this page indicates when the notice
+              upon posting to the website. The &quot;Last Updated&quot; date at the top of this page indicates when the notice
               was last revised.
             </p>
 
@@ -278,8 +280,8 @@ export default function Copyright() {
               For copyright questions, licensing inquiries, or to report copyright infringement:
             </p>
             <p>
-              <strong>General Inquiries:</strong> <a href="mailto:copyright@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@lucidblocks.wiki</a><br />
-              <strong>DMCA Notices:</strong> <a href="mailto:dmca@lucidblocks.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@lucidblocks.wiki</a>
+              <strong>General Inquiries:</strong> <a href="mailto:copyright@experienceabstractionwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">copyright@experienceabstractionwiki.wiki</a><br />
+              <strong>DMCA Notices:</strong> <a href="mailto:dmca@experienceabstractionwiki.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@experienceabstractionwiki.wiki</a>
             </p>
             <p>
               We aim to respond to all legitimate inquiries within 7 business days.
