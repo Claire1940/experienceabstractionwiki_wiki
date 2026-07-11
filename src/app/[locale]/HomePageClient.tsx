@@ -282,6 +282,18 @@ export default function HomePageClient({
   const survivalIcons = [Users, Sun, AlertTriangle, Home, Shield];
   // 过场模块卡片图标（每张不同）
   const cutsceneIcons = [Film, Moon, Drama, DoorClosed, TrendingUp];
+  // 地图模块地点图标（每个不同，模块标题仍用 MapIcon 保持语义统一）
+  const locationIcons = [
+    Home,
+    Drama,
+    Users,
+    Moon,
+    AlertTriangle,
+    Sparkles,
+    DoorClosed,
+  ];
+  // 更新模块条目图标（每个不同，模块标题仍用 Clock 保持语义统一）
+  const updateIcons = [Users, Drama, DoorClosed, Film, BookOpen];
 
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
@@ -606,48 +618,51 @@ export default function HomePageClient({
             icon={MapIcon}
           />
           <div className="scroll-reveal space-y-3">
-            {t.modules.mapAndDarkAreas.locations.map((loc: any, index: number) => (
-              <div
-                key={index}
-                className="border border-border rounded-xl overflow-hidden bg-white/5"
-              >
-                <button
-                  onClick={() => setMapExpanded(mapExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+            {t.modules.mapAndDarkAreas.locations.map((loc: any, index: number) => {
+              const LocationIcon = locationIcons[index] || MapIcon;
+              return (
+                <div
+                  key={index}
+                  className="border border-border rounded-xl overflow-hidden bg-white/5"
                 >
-                  <div className="flex items-center gap-3 min-w-0">
-                    <MapIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
-                    <span className="font-semibold truncate">{loc.title}</span>
-                  </div>
-                  <div className="flex items-center gap-2 flex-shrink-0">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
-                      {loc.risk}
-                    </span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${mapExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </div>
-                </button>
-                {mapExpanded === index && (
-                  <div className="px-4 md:px-5 pb-5">
-                    <span className="inline-block text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-3">
-                      {loc.type}
-                    </span>
-                    <ul className="space-y-2">
-                      {loc.details.map((d: string, di: number) => (
-                        <li
-                          key={di}
-                          className="flex items-start gap-2 text-sm text-muted-foreground"
-                        >
-                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
-                          <span>{d}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-              </div>
-            ))}
+                  <button
+                    onClick={() => setMapExpanded(mapExpanded === index ? null : index)}
+                    className="w-full flex items-center justify-between gap-3 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                  >
+                    <div className="flex items-center gap-3 min-w-0">
+                      <LocationIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      <span className="font-semibold truncate">{loc.title}</span>
+                    </div>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] whitespace-nowrap">
+                        {loc.risk}
+                      </span>
+                      <ChevronDown
+                        className={`w-5 h-5 flex-shrink-0 transition-transform ${mapExpanded === index ? "rotate-180" : ""}`}
+                      />
+                    </div>
+                  </button>
+                  {mapExpanded === index && (
+                    <div className="px-4 md:px-5 pb-5">
+                      <span className="inline-block text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-3">
+                        {loc.type}
+                      </span>
+                      <ul className="space-y-2">
+                        {loc.details.map((d: string, di: number) => (
+                          <li
+                            key={di}
+                            className="flex items-start gap-2 text-sm text-muted-foreground"
+                          >
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{d}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -666,40 +681,43 @@ export default function HomePageClient({
             icon={Clock}
           />
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
-            {t.modules.updates.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                    <span className="text-xs text-muted-foreground">{entry.date}</span>
-                  </div>
-                  <h3 className="font-bold mb-2">{entry.title}</h3>
-                  <ul className="space-y-1.5 mb-3">
-                    {entry.changes.map((c: string, ci: number) => (
-                      <li
-                        key={ci}
-                        className="flex items-start gap-2 text-sm text-muted-foreground"
+            {t.modules.updates.entries.map((entry: any, index: number) => {
+              const UpdateIcon = updateIcons[index] || Clock;
+              return (
+                <div key={index} className="relative">
+                  <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
+                  <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex items-center gap-2 mb-2">
+                      <UpdateIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      <span className="text-xs text-muted-foreground">{entry.date}</span>
+                    </div>
+                    <h3 className="font-bold mb-2">{entry.title}</h3>
+                    <ul className="space-y-1.5 mb-3">
+                      {entry.changes.map((c: string, ci: number) => (
+                        <li
+                          key={ci}
+                          className="flex items-start gap-2 text-sm text-muted-foreground"
+                        >
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span>{c}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    {entry.link && (
+                      <a
+                        href={entry.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs text-[hsl(var(--nav-theme-light))] hover:underline"
                       >
-                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
-                        <span>{c}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  {entry.link && (
-                    <a
-                      href={entry.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs text-[hsl(var(--nav-theme-light))] hover:underline"
-                    >
-                      View source
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                  )}
+                        View update
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
