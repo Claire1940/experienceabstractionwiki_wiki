@@ -16,3 +16,4 @@ export default async function HomePage({ params }: PageProps) {
   const latestArticles = await getLatestArticles(locale as Language, 30)
 
   return <HomePageClient latestArticles={latestArticles} locale={locale} />
+}
