@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Experience Abstraction - Caine, Cellar e Guias",
+      "description": "Wiki de Experience Abstraction com métodos de Abstraction verificados, detonados de Caine e Cellar, ajuda de personagens, localizações do mapa, atualizações e guias de Roblox.",
+      "keywords": "Experience Abstraction, Roblox, Caine, Cellar, guia de Abstraction, personagens, mapa, atualizações",
+      "ogTitle": "Wiki de Experience Abstraction - Caine, Cellar e Guias",
+      "ogDescription": "Wiki de Experience Abstraction com métodos de Abstraction verificados, detonados de Caine e Cellar, ajuda de personagens, localizações do mapa, atualizações e guias de Roblox.",
+      "twitterTitle": "Wiki de Experience Abstraction - Caine, Cellar e Guias",
+      "twitterDescription": "Wiki de Experience Abstraction com métodos de Abstraction verificados, detonados de Caine e Cellar, ajuda de personagens, localizações do mapa, atualizações e guias de Roblox."
+    }
+  },
   "nav": {
     "methods": "Métodos",
     "caine": "Caine",
@@ -7,5 +18,680 @@
     "guide": "Guia",
     "cutscenes": "Cutscenes",
     "updates": "Atualizações"
+  },
+  "pages": {
+    "methods": {
+      "title": "Métodos de Experience Abstraction",
+      "description": "Todas as maneiras confirmadas de acionar a Abstraction em Experience Abstraction, com condições passo a passo, tempo e mudanças de estado para cada método.",
+      "metaTitle": "Métodos de Experience Abstraction - Como se Abstrair Rápido",
+      "metaDescription": "Aprenda todos os métodos funcionais de Experience Abstraction: isolamento, escuridão e o gatilho de jogador abstraído. Condições passo a passo, tempo e dicas de sobrevivência.",
+      "categoryLabel": "MÉTODOS DE ABSTRACTION",
+      "whatIs": "O que são Métodos de Abstraction?",
+      "whatIsDescription": "Métodos de Abstraction são as maneiras confirmadas pelas quais um jogador se transforma em um estado abstraído em Experience Abstraction. Cada método é ativado por um gatilho específico — permanecer isolado, ficar na escuridão ou se aproximar de um jogador já abstraído — e, uma vez iniciado, a transformação segue uma sequência fixa de mudanças de estado visíveis.",
+      "why": "Por que aprender os Métodos de Abstraction?",
+      "whySteps": {
+        "step1Title": "Ative as Condições Corretas",
+        "step1Description": "Cada método depende de uma configuração precisa, desde isolar-se em uma sala vazia até procurar uma área escura ou um jogador abstraído.",
+        "step2Title": "Leia as Mudanças de Estado",
+        "step2Description": "Reconheça os sinais de alerta iniciais para saber exatamente quando a transformação está começando e quanto tempo lhe resta.",
+        "step3Title": "Controle o Resultado",
+        "step3Description": "Ative a Abstraction de propósito para explorar áreas restritas ou reverta-a usando os métodos de sobrevivência em nosso guia."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Métodos"
+    },
+    "caine": {
+      "title": "Caine em Experience Abstraction",
+      "description": "Como encontrar e desbloquear Caine em Experience Abstraction, incluindo requisitos, etapas de ativação, cutscenes e detalhes da transformação.",
+      "metaTitle": "Caine em Experience Abstraction - Como Obter e Desbloquear",
+      "metaDescription": "Guia completo do Caine para Experience Abstraction: requisitos de desbloqueio, etapas de ativação, passo a passo da cutscene e detalhes completos da transformação.",
+      "categoryLabel": "CAINE",
+      "whatIs": "Quem é Caine?",
+      "whatIsDescription": "Caine é um personagem central em Experience Abstraction associado a cutscenes exclusivas e a uma transformação única. Encontrá-lo requer cumprir condições específicas do jogo e seguir uma sequência fixa de etapas.",
+      "why": "Por que ir atrás de Caine?",
+      "whySteps": {
+        "step1Title": "Cumpra os Requisitos",
+        "step1Description": "Cumpra as condições que tornam o encontro com Caine disponível em sua sessão atual.",
+        "step2Title": "Siga as Etapas de Ativação",
+        "step2Description": "Conclua cada etapa na ordem correta para alcançar Caine e desbloquear sua cutscene.",
+        "step3Title": "Assista à Transformação",
+        "step3Description": "Experimente a cutscene completa de Caine e a sequência de transformação que se segue."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias do Caine"
+    },
+    "cellar": {
+      "title": "Experience Abstraction Cellar",
+      "description": "Como chegar ao Cellar em Experience Abstraction, incluindo locais de entrada, passo a passo das rotas, requisitos e o que você encontra lá dentro.",
+      "metaTitle": "Experience Abstraction Cellar - Localização e Como Chegar",
+      "metaDescription": "Encontre o Cellar em Experience Abstraction: locais de entrada, rotas passo a passo, pré-requisitos do Caine e o que espera por você dentro do Cellar.",
+      "categoryLabel": "CELLAR",
+      "whatIs": "O que é o Cellar?",
+      "whatIsDescription": "O Cellar é uma área escondida em Experience Abstraction que requer condições específicas e uma rota precisa para ser alcançada. Chegar lá geralmente envolve o encontro com Caine e uma descida por passagens escuras e desorientadoras.",
+      "why": "Por que explorar o Cellar?",
+      "whySteps": {
+        "step1Title": "Desbloqueie a Entrada",
+        "step1Description": "Conclua as etapas de pré-requisito, incluindo quaisquer gatilhos relacionados ao Caine, que abrem o caminho para o Cellar.",
+        "step2Title": "Siga a Rota",
+        "step2Description": "Navegue pelos corredores corretos passo a passo e evite as curvas erradas comuns que resetam seu progresso.",
+        "step3Title": "Alcance o Interior",
+        "step3Description": "Entre no Cellar e explore a cutscene e o conteúdo que espera lá dentro."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias do Cellar"
+    },
+    "survival": {
+      "title": "Sobrevivência em Experience Abstraction",
+      "description": "Como evitar e atrasar a Abstraction em Experience Abstraction, com estratégias para permanecer humano na luz, em grupos e longe de jogadores que sofreram Abstraction.",
+      "metaTitle": "Sobrevivência em Experience Abstraction - Como Evitar a Abstraction",
+      "metaDescription": "Sobreviva por mais tempo em Experience Abstraction: fique na luz, junte-se a outros jogadores e mantenha distância de personagens que sofreram Abstraction para evitar a transformação.",
+      "categoryLabel": "SOBREVIVÊNCIA",
+      "whatIs": "O que é Sobrevivência?",
+      "whatIsDescription": "Sobrevivência em Experience Abstraction significa reverter os três gatilhos de Abstraction: ficar perto de outros jogadores, permanecer em áreas iluminadas e evitar o contato com personagens que sofreram Abstraction. Cada tática neutraliza diretamente um dos métodos de transformação.",
+      "why": "Por que aprender sobre Sobrevivência?",
+      "whySteps": {
+        "step1Title": "Fique na Luz",
+        "step1Description": "Mantenha-se em áreas iluminadas e evite permanecer na escuridão, já que a escuridão é um dos gatilhos confirmados de Abstraction.",
+        "step2Title": "Fiquem Juntos",
+        "step2Description": "Fique perto de outros jogadores, pois o isolamento é outro gatilho que acelera a transformação.",
+        "step3Title": "Evite os que sofreram Abstraction",
+        "step3Description": "Mantenha distância de jogadores que já sofreram Abstraction para evitar que o gatilho de contato seja iniciado."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Sobrevivência"
+    },
+    "guide": {
+      "title": "Guia de Experience Abstraction",
+      "description": "Guias para iniciantes em Experience Abstraction, cobrindo os primeiros passos, objetivos, controles básicos e erros comuns que novos jogadores cometem.",
+      "metaTitle": "Guia de Experience Abstraction - Dicas para Iniciantes e Como Jogar",
+      "metaDescription": "Comece bem em Experience Abstraction: passo a passo para iniciantes, objetivos, controles básicos, como identificar o perigo e erros comuns a evitar.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que é o Guia para Iniciantes?",
+      "whatIsDescription": "O guia para iniciantes cobre tudo o que um jogador de primeira viagem precisa em Experience Abstraction: como começar, quais são os objetivos, como as mecânicas principais funcionam e como reconhecer os estados de perigo antes que seja tarde demais.",
+      "why": "Por que ler o Guia?",
+      "whySteps": {
+        "step1Title": "Aprenda o Básico",
+        "step1Description": "Entenda a movimentação, os objetivos e a mecânica principal de Abstraction antes de explorar mais a fundo.",
+        "step2Title": "Identifique o Perigo",
+        "step2Description": "Reconheça os sinais de alerta de Abstraction para que você possa reagir antes que a transformação comece.",
+        "step3Title": "Evite Erros Comuns",
+        "step3Description": "Pule os erros que a maioria dos novos jogadores comete e progrida mais rápido com estratégias comprovadas."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "cutscenes": {
+      "title": "Cutscenes de Experience Abstraction",
+      "description": "Todas as cutscenes em Experience Abstraction, incluindo as sequências de Abstraction, transformação e do Caine, com o que ativa cada uma.",
+      "metaTitle": "Cutscenes de Experience Abstraction - Todas as Cenas da História",
+      "metaDescription": "Assista e desbloqueie todas as cutscenes de Experience Abstraction: Abstraction, transformação, novas cenas e a sequência do Caine com condições de ativação.",
+      "categoryLabel": "CUTSCENES",
+      "whatIs": "O que são as Cutscenes?",
+      "whatIsDescription": "As cutscenes em Experience Abstraction são cenas de história roteirizadas ativadas por eventos específicos, como entrar em Abstraction, transformar-se ou encontrar o Caine. Cada uma revela mais da narrativa do jogo e da atmosfera sombria de circo.",
+      "why": "Por que assistir às Cutscenes?",
+      "whySteps": {
+        "step1Title": "Ative cada cena",
+        "step1Description": "Aprenda as condições exatas que iniciam cada cutscene para não perder nenhuma delas.",
+        "step2Title": "Siga a história",
+        "step2Description": "Monte o quebra-cabeça da narrativa por trás do circo digital e do fenômeno de Abstraction.",
+        "step3Title": "Acompanhe as novas cenas",
+        "step3Description": "Fique por dentro das cutscenes adicionadas em cada nova atualização."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Cutscenes"
+    },
+    "updates": {
+      "title": "Atualizações de Experience Abstraction",
+      "description": "Todas as atualizações de Experience Abstraction em um só lugar, com notas de patch, novo conteúdo, datas de lançamento e mudanças na Abstraction, no Caine e no mapa.",
+      "metaTitle": "Atualizações de Experience Abstraction - Notas de Patch e Novo Conteúdo",
+      "metaDescription": "Acompanhe cada atualização de Experience Abstraction: notas de patch, novas cutscenes e personagens, datas de lançamento e mudanças na Abstraction e no mapa.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "O que são as Atualizações?",
+      "whatIsDescription": "A seção de atualizações acompanha cada mudança que o desenvolvedor envia para Experience Abstraction, incluindo novas cutscenes, personagens, rotas, mudanças de equilíbrio e correções, organizadas por versão e data de lançamento.",
+      "why": "Por que acompanhar as Atualizações?",
+      "whySteps": {
+        "step1Title": "Veja o que mudou",
+        "step1Description": "Leia as notas de patch de cada versão para entender o novo conteúdo e as mudanças de equilíbrio.",
+        "step2Title": "Encontre novo conteúdo",
+        "step2Description": "Descubra novas cutscenes, personagens e rotas assim que forem adicionados.",
+        "step3Title": "Planeje-se com as datas de lançamento",
+        "step3Description": "Fique à frente dos próximos recursos e saiba exatamente quando cada atualização entra no ar."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Atualizações"
+    }
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Play on Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página não encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Experiência de terror social inspirada em TADC",
+    "title": "Wiki de Experience Abstraction",
+    "description": "Aprenda a ativar ou resistir à abstração, encontrar Caine e o Cellar, explorar locais importantes e acompanhar as novas atualizações e cutscenes do Roblox.",
+    "getFreeCodesCTA": "Ver Guia de Abstraction",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "825K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "7K+",
+        "label": "Jogadores Online"
+      },
+      "stat3": {
+        "value": "93%",
+        "label": "Taxa de Aprovação"
+      },
+      "stat4": {
+        "value": "3",
+        "label": "Métodos de Abstraction"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Experience Abstraction",
+    "description": "Uma experiência de terror social no Roblox inspirada em TADC onde você ativa ou resiste à abstração, encontra Caine e descobre o Cellar."
+  },
+  "tools": {
+    "title": "Experience Abstraction",
+    "titleHighlight": "Guias e Recursos",
+    "subtitle": "Tudo o que você precisa para ativar a abstração, encontrar Caine, chegar ao Cellar e sobreviver em Experience Abstraction.",
+    "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "Como Abstrair",
+        "description": "Ative a abstração através do isolamento, da escuridão ou do contato com jogadores abstraídos"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Lista de verificação da primeira sessão e o básico de sobrevivência social"
+      },
+      {
+        "icon": "Drama",
+        "title": "Guia do Caine",
+        "description": "Ative a sequência do Caine após uma abstração bem-sucedida"
+      },
+      {
+        "icon": "DoorClosed",
+        "title": "Guia do Cellar",
+        "description": "Chegue ao Cellar através da rota do evento do Caine"
+      },
+      {
+        "icon": "Shield",
+        "title": "Guia de Sobrevivência",
+        "description": "Resista à abstração permanecendo em grupo, iluminado e longe de jogadores abstraídos"
+      },
+      {
+        "icon": "Film",
+        "title": "Cutscenes",
+        "description": "Assista às sequências de transformação da abstração, do Caine e do Cellar"
+      },
+      {
+        "icon": "Map",
+        "title": "Mapa e Áreas Escuras",
+        "description": "Zonas seguras, rotas escuras e locais de eventos especiais"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações",
+        "description": "Últimas adições, novas rotas e mudanças nas cutscenes"
+      }
+    ]
+  },
+  "modules": {
+    "howToAbstract": {
+      "title": "Como Abstrair em Experience Abstraction",
+      "eyebrow": "Mecânica Principal",
+      "subtitle": "Ative a abstração através do isolamento, da escuridão prolongada ou do contato com um jogador abstraído. Cada rota funciona como sua própria condição.",
+      "intro": "Escolha uma rota, mantenha sua condição ativa e evite retornar a um grupo seguro ou área iluminada enquanto o efeito se acumula. A transformação começa assim que seu personagem permanece exposto à condição escolhida.",
+      "steps": [
+        {
+          "title": "Escolha uma Rota de Abstraction",
+          "description": "Use o isolamento, a escuridão ou a proximidade de um jogador abstraído. Você só precisa cumprir uma dessas três condições."
+        },
+        {
+          "title": "Use a Rota de Isolamento",
+          "description": "Afaste-se do grupo principal e permaneça sozinho. Mantenha distância suficiente de outros jogadores para que a condição de isolamento continue se acumulando."
+        },
+        {
+          "title": "Use a Rota da Escuridão",
+          "description": "Entre em uma sala escura ou seção não iluminada e permaneça lá continuamente. Retornar a uma área iluminada interrompe a rota da escuridão."
+        },
+        {
+          "title": "Use a Rota do Jogador Abstraído",
+          "description": "Encontre um jogador que já tenha se transformado e fique perto dele. Afastar-se remove a condição de proximidade."
+        },
+        {
+          "title": "Mantenha a Condição",
+          "description": "Não se reuna ao grupo, não retorne à luz forte nem se afaste do jogador abstraído enquanto testa seu método. A Abstraction se acumula ao longo do tempo, em vez de ocorrer por um único contato breve."
+        },
+        {
+          "title": "Conclua a Transformação",
+          "description": "Quando a condição for concluída, seu avatar entrará na sequência de abstração e se tornará um personagem abstraído. Permaneça no servidor para continuar em direção aos eventos do Caine e do Cellar."
+        }
+      ],
+      "tips": [
+        "Apenas uma das três condições precisa permanecer ativa para que a abstração seja ativada.",
+        "Retornar à luz forte ou ao grupo principal interrompe o efeito imediatamente.",
+        "Permaneça no servidor após se transformar para que os eventos do Caine e do Cellar possam prosseguir."
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guia de Iniciante de Experience Abstraction",
+      "eyebrow": "Comece Aqui",
+      "subtitle": "Aprenda o ciclo de sobrevivência social antes de entrar em Abstraction de propósito. Luz, jogadores próximos e distância de personagens abstraídos decidem quão seguro você pode explorar.",
+      "intro": "Experience Abstraction é uma experiência social no Roblox inspirada em The Amazing Digital Circus. Novos jogadores devem primeiro aprender onde os jogadores se reúnem, quais áreas são escuras e como personagens transformados afetam os jogadores próximos.",
+      "steps": [
+        {
+          "title": "Fique com o Grupo Principal",
+          "description": "Comece cada sessão perto de outros jogadores em vez de explorar sozinho. Ficar agrupado evita que a condição de isolamento aumente."
+        },
+        {
+          "title": "Identifique a Luz e a Escuridão",
+          "description": "Explore salas próximas enquanto permanece com os outros. Lembre-se de quais corredores são bem iluminados e quais áreas podem ativar a condição de escuridão."
+        },
+        {
+          "title": "Cuidado com Jogadores Abstraídos",
+          "description": "Jogadores abstraídos são tanto um perigo quanto um gatilho de Abstraction. Mantenha distância enquanto aprende o mapa, pois ficar perto deles pode iniciar sua transformação."
+        },
+        {
+          "title": "Siga a Regra de Sobrevivência",
+          "description": "Fique com outros jogadores, permaneça em áreas iluminadas e afaste-se de personagens abstraídos. Seguir todas as três regras ajuda você a resistir à Abstraction."
+        },
+        {
+          "title": "Teste uma Mecânica por Vez",
+          "description": "Quando estiver pronto para a Abstraction, escolha apenas isolamento, escuridão ou proximidade de jogador abstraído. Testar uma condição torna a rota mais fácil de seguir."
+        },
+        {
+          "title": "Permaneça Após a Transformação",
+          "description": "Não dê reset nem saia imediatamente após se tornar abstraído. Permanecer na sessão permite que a aparição posterior de Caine e a sequência do Cellar comecem."
+        }
+      ],
+      "tips": [
+        "A jogada mais segura é ficar agrupado, iluminado e longe de personagens abstraídos.",
+        "Ative apenas uma condição de Abstraction por vez para que você possa entender o que está acontecendo.",
+        "Não dê reset após se transformar se quiser que a sequência de Caine comece."
+      ]
+    },
+    "caineGuide": {
+      "title": "Guia do Caine de Experience Abstraction",
+      "eyebrow": "Evento de Personagem",
+      "subtitle": "Caine está ligado à cadeia de eventos pós-Abstraction. Torne-se abstraído, permaneça nesse estado e continue na sessão para a sequência de Caine.",
+      "intro": "O encontro com Caine acontece após uma Abstraction bem-sucedida, em vez de no início de uma sessão normal. Completar a sequência também abre a rota para o Cellar.",
+      "steps": [
+        {
+          "title": "Entre em uma Sessão Ativa",
+          "description": "Entre na experiência e permaneça na área jogável com outros usuários. A sequência de Caine está ligada à jogabilidade multiplayer normal."
+        },
+        {
+          "title": "Ative a Abstraction",
+          "description": "Torne-se abstraído ficando isolado, permanecendo na escuridão ou passando tempo ao lado de um jogador já abstraído."
+        },
+        {
+          "title": "Permaneça Abstraído",
+          "description": "Não dê reset no seu personagem nem saia do servidor após se transformar. O próximo evento exige que seu personagem permaneça no estado abstraído."
+        },
+        {
+          "title": "Espere o Caine Aparecer",
+          "description": "Continue esperando como o personagem abstraído até que o evento do Caine seja ativado. Caine aparece como parte da resposta a um jogador que permanece abstraído."
+        },
+        {
+          "title": "Assista à Cutscene do Caine",
+          "description": "Permaneça conectado enquanto a animação passa. A sequência mostra Caine interagindo com o personagem abstraído e inicia a transição para o Cellar."
+        },
+        {
+          "title": "Continue a Cadeia de Eventos",
+          "description": "Permaneça na sessão após Caine aparecer. A rota do Cellar continua a partir desta sequência, em vez de através de uma porta desbloqueada normal."
+        }
+      ],
+      "tips": [
+        "Caine só aparece depois que você estiver totalmente abstraído, não no início de uma sessão.",
+        "Permaneça abstraído e continue online para que a sequência de Caine possa ser ativada.",
+        "A cutscene do Caine leva diretamente à rota do Cellar."
+      ]
+    },
+    "cellarGuide": {
+      "title": "Guia do Cellar de Experience Abstraction",
+      "eyebrow": "Rota Secreta",
+      "subtitle": "O Cellar faz parte da sequência do Caine pós-Abstraction. Complete a transformação, permaneça no servidor e siga o evento até sua transição final.",
+      "intro": "Chegar ao Cellar requer a ordem correta dos eventos. Ele está ligado ao Caine lidando com um jogador abstraído, então procurar por uma entrada normal do Cellar antes de se transformar não completará a rota.",
+      "steps": [
+        {
+          "title": "Complete uma Rota de Abstraction",
+          "description": "Use isolamento, escuridão ou proximidade com um jogador abstraído e mantenha a condição até que seu personagem se transforme totalmente."
+        },
+        {
+          "title": "Não dê Reset",
+          "description": "Permaneça como o personagem abstraído. Dar reset, renascer ou sair do servidor encerra a cadeia de eventos antes que Caine possa continuá-la."
+        },
+        {
+          "title": "Ative a Resposta do Caine",
+          "description": "Permaneça abstraído até que Caine apareça. O evento do Caine conecta a transformação inicial à sequência do Cellar."
+        },
+        {
+          "title": "Deixe a Sequência Terminar",
+          "description": "Permaneça conectado e deixe a animação completa do Caine passar. Sair durante a sequência impede que a transição para o Cellar seja concluída."
+        },
+        {
+          "title": "Entre na Transição do Cellar",
+          "description": "O evento concluído envia o personagem abstraído para a área do Cellar. Siga a cutscene em vez de procurar por uma porta ou escada padrão."
+        },
+        {
+          "title": "Reinicie uma Rota que Falhou",
+          "description": "Repita a sequência em uma nova sessão se ela parar. Dar reset cedo demais, sair do estado abstraído, desconectar ou sair antes da animação do Caine terminar interromperá a rota."
+        }
+      ],
+      "tips": [
+        "O Cellar é alcançado através da sequência do Caine, não por uma porta normal.",
+        "Dar reset ou sair após a Abstraction encerra a rota.",
+        "Deixe a animação completa do Caine terminar antes que a transição para o Cellar possa ser concluída."
+      ]
+    },
+    "survivalGuide": {
+      "title": "Guia de Sobrevivência de Experience Abstraction",
+      "eyebrow": "Estratégias de Sobrevivência",
+      "subtitle": "Evite as três condições que causam Abstraction: isolamento, escuridão prolongada e contato com jogadores abstracted.",
+      "intro": "A sobrevivência consiste em controlar sua localização e os jogadores ao seu redor. Fique com o grupo, use áreas de encontro iluminadas e saia no momento em que um personagem abstracted se aproximar.",
+      "cards": [
+        {
+          "title": "Fique com Outros Jogadores",
+          "risk": "Permanecer sozinho ou separar-se do grupo do servidor pode desencadear a Abstraction.",
+          "action": "Siga os jogadores ativos pelo circo e retorne à área de encontro principal sempre que o grupo começar a se dividir.",
+          "signs": [
+            "Nenhum outro jogador está visível por perto",
+            "Você permaneceu dentro de uma sala privada ou corredor remoto",
+            "O grupo principal se moveu para outra parte do Map"
+          ]
+        },
+        {
+          "title": "Escolha Áreas Iluminadas",
+          "risk": "Passar um longo período na escuridão é um dos três métodos de Abstraction do jogo.",
+          "action": "Use salas iluminadas, áreas sociais abertas e o chão principal do circo em vez de esperar em salas escuras ou rotas não iluminadas.",
+          "signs": [
+            "As luzes da sala foram apagadas",
+            "Você entrou em um corredor escuro ou canto isolado",
+            "Você está combinando escuridão com isolamento"
+          ]
+        },
+        {
+          "title": "Evite Jogadores Abstracted",
+          "risk": "Ficar perto de alguém que já está abstracted pode espalhar o efeito de Abstraction.",
+          "action": "Crie distância assim que um personagem abstracted entrar em sua área. Não siga nem cerque o jogador transformado.",
+          "signs": [
+            "Um personagem abstracted está parado ao lado do grupo",
+            "O jogador transformado continua seguindo você",
+            "Sua rota de fuga está sendo bloqueada"
+          ]
+        },
+        {
+          "title": "Use um Ponto de Reagrupamento de Grupo",
+          "risk": "Jogadores que se espalham entre as salas têm mais probabilidade de ficarem isolados sem perceber.",
+          "action": "Escolha um local central iluminado como ponto de encontro da equipe e retorne para lá após explorar salas, corredores ou a rota do Caine.",
+          "signs": [
+            "Os jogadores estão explorando áreas diferentes sozinhos",
+            "O grupo do servidor não é mais visível da sua posição",
+            "Um jogador abstracted interrompeu a área de encontro"
+          ]
+        },
+        {
+          "title": "Remova Múltiplos Riscos de uma Vez",
+          "risk": "Escuridão, isolamento e proximidade de jogadores abstracted podem ocorrer ao mesmo tempo.",
+          "action": "Vá para a luz, junte-se a jogadores normais e aumente sua distância de personagens abstracted em vez de corrigir apenas um risco.",
+          "signs": [
+            "Você está sozinho em um local escuro",
+            "Um jogador abstracted entra na mesma área isolada",
+            "O grupo seguro mais próximo está a várias salas de distância"
+          ]
+        }
+      ]
+    },
+    "cutscenes": {
+      "title": "Cutscenes e Transformações de Experience Abstraction",
+      "eyebrow": "Cenas de Transformação",
+      "subtitle": "Veja como as principais sequências de transformação começam e o que acontece depois que um jogador se torna totalmente abstracted.",
+      "intro": "Experience Abstraction usa sequências cinematográficas para mostrar a transformação do jogador e sua remoção do circo ativo. A cena padrão de Abstraction começa através de condições normais de jogo, enquanto as cenas de Caine e do Cellar continuam a sequência após a transformação.",
+      "cards": [
+        {
+          "title": "Transformação Padrão de Abstraction",
+          "category": "Transformação Normal",
+          "trigger": "Permaneça isolado, fique na escuridão por um longo período ou passe tempo perto de um jogador que já esteja abstracted.",
+          "sequence": "A forma normal do jogador muda para um personagem abstracted após a condição de Abstraction ter sido mantida.",
+          "result": "O jogador entra no estado abstracted e se torna um perigo para os jogadores não-abstracted próximos."
+        },
+        {
+          "title": "Transformação em Sala Escura",
+          "category": "Transformação Normal",
+          "trigger": "Entre em uma sala privada ou outro local escuro, apague a iluminação disponível e permaneça lá por tempo suficiente.",
+          "sequence": "A transformação se desenvolve enquanto o jogador permanece longe de áreas sociais iluminadas.",
+          "result": "O avatar normal é substituído pela forma abstracted do jogo."
+        },
+        {
+          "title": "Encontro com Caine",
+          "category": "Cutscene Especial",
+          "trigger": "Complete o processo de Abstraction e continue na sequência ligada ao Caine mostrada na jogabilidade atual.",
+          "sequence": "Caine aparece depois que o jogador atinge o estado abstracted necessário.",
+          "result": "A cena afasta o jogador da área social normal e prepara a transição para o Cellar."
+        },
+        {
+          "title": "Transferência para o Cellar",
+          "category": "Cutscene de Localização",
+          "trigger": "Alcance o estágio do Cellar através da rota do Caine e da Abstraction, em vez da exploração normal do Map.",
+          "sequence": "O jogador abstracted é transferido da área ativa do circo para a sequência do Cellar.",
+          "result": "O jogador chega ao local escuro do Cellar associado a personagens abstracted."
+        },
+        {
+          "title": "Cutscene do Caine Atualizada",
+          "category": "Transformação de Atualização",
+          "trigger": "Siga a rota atual do Caine após tornar-se abstracted na versão mais recente do Roblox.",
+          "sequence": "A sequência atualizada adiciona um novo momento cinematográfico conectado ao Caine e ao estado abstracted do jogador.",
+          "result": "A rota de transformação continua através da cutscene recém-adicionada antes que a sequência termine."
+        }
+      ]
+    },
+    "mapAndDarkAreas": {
+      "title": "Mapa e Áreas Escuras de Experience Abstraction",
+      "eyebrow": "Locais do Mapa",
+      "subtitle": "Saiba onde os jogadores se reúnem, onde a escuridão torna a Abstraction mais fácil e como as rotas de Caine e do Cellar se encaixam no mapa.",
+      "intro": "O mapa é dividido entre espaços sociais abertos, quartos privados, rotas mais escuras e locais apenas de sequência. Áreas centrais iluminadas são melhores para a sobrevivência, enquanto quartos isolados e corredores escuros são úteis ao testar deliberadamente a Abstraction.",
+      "locations": [
+        {
+          "title": "Piso Principal do Circo",
+          "type": "Área Social Iluminada",
+          "risk": "Baixo",
+          "details": [
+            "Uma área central onde os jogadores podem ficar perto do grupo maior do servidor.",
+            "Útil como um ponto de reagrupamento após explorar quartos privados e corredores.",
+            "Mais seguro para resistir à Abstraction baseada em isolamento enquanto outros jogadores permanecem por perto."
+          ]
+        },
+        {
+          "title": "Palco e Espaço de Encontro Central",
+          "type": "Área Social Aberta",
+          "risk": "Baixo",
+          "details": [
+            "Uma seção aberta adequada para observar o movimento dos jogadores e identificar personagens abstraídos.",
+            "Oferece opções de fuga mais claras do que quartos estreitos ou corredores escuros.",
+            "Torna-se perigoso quando um jogador abstraído entra e permanece perto do grupo."
+          ]
+        },
+        {
+          "title": "Corredor dos Quartos dos Jogadores",
+          "type": "Área de Transição",
+          "risk": "Médio",
+          "details": [
+            "Conecta a área central do circo com quartos privados menores.",
+            "Os jogadores podem se separar rapidamente ao entrar em quartos diferentes.",
+            "Use o corredor para retornar ao grupo principal em vez de esperar lá sozinho."
+          ]
+        },
+        {
+          "title": "Quartos Privados",
+          "type": "Área de Isolamento e Escuridão",
+          "risk": "Alto",
+          "details": [
+            "Os quartos facilitam a separação de outros jogadores.",
+            "A iluminação disponível pode ser desligada para criar uma rota de escuridão controlada.",
+            "Ficar sozinho dentro de um quarto escuro combina duas condições de Abstraction."
+          ]
+        },
+        {
+          "title": "Corredores e Cantos Escuros",
+          "type": "Rota Escura",
+          "risk": "Alto",
+          "details": [
+            "Rotas não iluminadas ou mal iluminadas apoiam o método de Abstraction por escuridão prolongada.",
+            "Essas áreas tornam-se mais perigosas quando o grupo principal do servidor está fora de vista.",
+            "Saia imediatamente quando um personagem abstraído entrar na mesma rota estreita."
+          ]
+        },
+        {
+          "title": "Rota da Sequência de Caine",
+          "type": "Rota de Evento Especial",
+          "risk": "Transformação Necessária",
+          "details": [
+            "Esta rota está ligada a se tornar abstraído e acionar o encontro com Caine.",
+            "Faz parte de uma progressão cinematográfica, em vez de uma área normal de encontro para sobrevivência.",
+            "Siga a sequência de Abstraction atual para alcançar o evento de Caine."
+          ]
+        },
+        {
+          "title": "Cellar",
+          "type": "Local Escuro Apenas de Sequência",
+          "risk": "Estado Abstraído",
+          "details": [
+            "O Cellar é alcançado através da sequência de Caine e Abstraction.",
+            "Não é tratado como uma área social normal de livre acesso nas filmagens de gameplay atuais.",
+            "O local serve como destino para a transferência do jogador abstraído."
+          ]
+        }
+      ]
+    },
+    "updates": {
+      "title": "Atualizações de Experience Abstraction",
+      "eyebrow": "Últimas Alterações",
+      "subtitle": "Acompanhe as adições às mecânicas de Abstraction, encontros com Caine, locais especiais e sequências cinematográficas.",
+      "intro": "A página oficial do Roblox foi atualizada em 10 de julho de 2026. A versão atual mantém os três métodos principais de Abstraction e inclui rotas de jogabilidade envolvendo Caine, o Cellar e uma cena recém-gravada.",
+      "entries": [
+        {
+          "date": "2026-07-10",
+          "title": "Jogabilidade Core de Abstraction",
+          "changes": [
+            "Confirmado o isolamento como um método de Abstraction.",
+            "Confirmada a escuridão prolongada como um método de Abstraction.",
+            "Confirmada a proximidade com jogadores sob Abstraction como um método de Abstraction.",
+            "Estabelecida a escolha central entre resistir à Abstraction e ativá-la deliberadamente."
+          ],
+          "link": "https://www.roblox.com/games/131320856116838/Experience-Abstraction"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Rota de Encontro com Caine",
+          "changes": [
+            "Adicionada uma rota jogável para alcançar a sequência do Caine após a Abstraction.",
+            "Conectado o estado transformado do jogador com um encontro cinematográfico com Caine.",
+            "Expandida a sequência pós-Abstraction para além da transformação padrão."
+          ],
+          "link": "https://www.youtube.com/watch?v=TB2cMYxbyB8"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Acesso ao Cellar",
+          "changes": [
+            "Adicionada uma rota da sequência do Caine para o Cellar.",
+            "Introduzido o Cellar como um destino especial para jogadores sob Abstraction.",
+            "Tornado o local acessível através da sequência de eventos, em vez da exploração padrão do mapa."
+          ],
+          "link": "https://www.youtube.com/watch?v=OIHO6wC5YSU"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Nova Cutscene de Abstraction",
+          "changes": [
+            "Adicionada uma nova sequência cinematográfica conectada a Caine e à Abstraction.",
+            "Expandida a transição visual que segue a transformação do jogador.",
+            "Incluída a nova cena no passo a passo gravado da atualização mais recente."
+          ],
+          "link": "https://www.youtube.com/watch?v=TB2cMYxbyB8"
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Visão Geral do Conteúdo Mais Recente",
+          "changes": [
+            "Documentados os personagens atuais e o conteúdo de transformação.",
+            "Apresentados os locais e rotas de eventos recém-disponibilizados.",
+            "Reunidas as principais alterações incluídas na versão atualizada do Roblox."
+          ],
+          "link": "https://www.youtube.com/watch?v=viq7iv6NwUg"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Experience Abstraction",
+    "questions": [
+      {
+        "question": "O que é Experience Abstraction?",
+        "answer": "Experience Abstraction é uma experiência de terror social no Roblox inspirada em The Amazing Digital Circus, onde os jogadores escolhem ativar ou resistir à Abstraction."
+      },
+      {
+        "question": "Como eu ativo a Abstraction em Experience Abstraction?",
+        "answer": "Em Experience Abstraction, a Abstraction é ativada por isolamento, escuridão prolongada ou contato próximo com um jogador que já esteja sob Abstraction."
+      },
+      {
+        "question": "Como eu encontro o Caine em Experience Abstraction?",
+        "answer": "Em Experience Abstraction, Caine aparece depois que você passa pelo processo de Abstraction e permanece nesse estado dentro do servidor."
+      },
+      {
+        "question": "Como eu chego ao Cellar em Experience Abstraction?",
+        "answer": "O Cellar em Experience Abstraction é alcançado através da sequência do Caine após uma Abstraction bem-sucedida, e não pela exploração normal do mapa."
+      },
+      {
+        "question": "Experience Abstraction é gratuito para jogar?",
+        "answer": "Sim. Experience Abstraction é gratuito para jogar no Roblox."
+      },
+      {
+        "question": "Quem criou Experience Abstraction?",
+        "answer": "Experience Abstraction é um jogo de Roblox feito por fã pelo desenvolvedor pawlooz, inspirado em The Amazing Digital Circus da Glitch Productions."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Entrar no Circo?",
+    "description": "Jogue Experience Abstraction no Roblox e junte-se à comunidade TADC no Reddit para guias, teorias e discussões sobre atualizações!",
+    "joinCommunity": "Junte-se à Comunidade no Reddit",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Experience Abstraction",
+    "description": "Seu hub de recursos completo para métodos de Abstraction em Experience Abstraction, Caine, o Cellar, personagens, locais do mapa e guias de atualização do Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "roblox": "Jogar no Roblox",
+    "reddit": "r/TheDigitalCircus",
+    "redditTadc": "r/tadc",
+    "youtube": "Vídeo de Gameplay",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Experience Abstraction Wiki. Não afiliado a pawlooz, Roblox ou Glitch Productions.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
   }
 }

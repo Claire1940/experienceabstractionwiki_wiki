@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://experienceabstractionwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（对齐 navigation.ts 的 7 个内容类型）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'methods': 0.9,
+	'caine': 0.9,
+	'cellar': 0.8,
+	'survival': 0.8,
+	'guide': 0.8,
+	'cutscenes': 0.7,
+	'updates': 0.9,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（updates 频繁更新用 daily，其余 weekly）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'methods': 'weekly',
+	'caine': 'weekly',
+	'cellar': 'weekly',
+	'survival': 'weekly',
+	'guide': 'weekly',
+	'cutscenes': 'weekly',
+	'updates': 'daily',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
