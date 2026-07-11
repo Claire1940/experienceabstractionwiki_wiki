@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,440 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Experience Abstraction Gameplay",
+    "description": "A TADC-inspired Roblox social horror experience where you trigger or resist abstraction, encounter Caine, and uncover the Cellar."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Experience Abstraction",
+    "titleHighlight": "Guides & Resources",
+    "subtitle": "Everything you need to trigger abstraction, find Caine, reach the Cellar, and survive in Experience Abstraction.",
     "cards": [
+      {
+        "icon": "Sparkles",
+        "title": "How to Abstract",
+        "description": "Trigger abstraction through isolation, darkness, or contact with abstracted players"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-session checklist and social survival basics"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Drama",
+        "title": "Caine Guide",
+        "description": "Trigger the Caine sequence after a successful abstraction"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "DoorClosed",
+        "title": "Cellar Guide",
+        "description": "Reach the Cellar through the Caine event route"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Survival Guide",
+        "description": "Resist abstraction by staying grouped, lit, and clear of abstracted players"
+      },
+      {
+        "icon": "Film",
+        "title": "Cutscenes",
+        "description": "Watch the abstraction, Caine, and Cellar transformation sequences"
+      },
+      {
+        "icon": "Map",
+        "title": "Map and Dark Areas",
+        "description": "Safe zones, dark routes, and special event locations"
+      },
+      {
+        "icon": "Clock",
+        "title": "Updates",
+        "description": "Latest additions, new routes, and cutscene changes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "howToAbstract": {
+      "title": "How to Abstract in Experience Abstraction",
+      "eyebrow": "Core Mechanic",
+      "subtitle": "Trigger abstraction through isolation, prolonged darkness, or contact with an abstracted player. Each route works as its own condition.",
+      "intro": "Choose one route, keep its condition active, and avoid returning to a safe group or bright area while the effect builds. The transformation begins once your character stays exposed to the chosen condition.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose One Abstraction Route",
+          "description": "Use isolation, darkness, or proximity to an abstracted player. You only need to complete one of these three conditions."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Use the Isolation Route",
+          "description": "Move away from the main group and remain alone. Keep enough distance from other players for the isolation condition to keep building."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Use the Darkness Route",
+          "description": "Enter a dark room or unlit section and stay there continuously. Returning to a bright area interrupts the darkness route."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Use the Abstracted-Player Route",
+          "description": "Find a player who has already transformed and stay close to them. Moving away removes the proximity condition."
+        },
+        {
+          "title": "Maintain the Condition",
+          "description": "Do not regroup, return to strong light, or leave the abstracted player while testing your method. Abstraction builds over time rather than from a single brief contact."
+        },
+        {
+          "title": "Complete the Transformation",
+          "description": "When the condition completes, your avatar enters the abstraction sequence and becomes an abstracted character. Stay in the server to continue toward the Caine and Cellar events."
         }
       ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+      "tips": [
+        "Only one of the three conditions needs to stay active for abstraction to trigger.",
+        "Returning to bright light or the main group interrupts the effect immediately.",
+        "Stay in the server after transforming so the Caine and Cellar events can follow."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "beginnerGuide": {
+      "title": "Experience Abstraction Beginner Guide",
+      "eyebrow": "Start Here",
+      "subtitle": "Learn the social survival loop before abstracting on purpose. Light, nearby players, and distance from abstracted characters decide how safely you can explore.",
+      "intro": "Experience Abstraction is a Roblox social experience inspired by The Amazing Digital Circus. New players should first learn where players gather, which areas are dark, and how transformed characters affect nearby players.",
+      "steps": [
+        {
+          "title": "Stay With the Main Group",
+          "description": "Begin each session near other players instead of exploring alone. Staying grouped prevents the isolation condition from building."
+        },
+        {
+          "title": "Identify Light and Darkness",
+          "description": "Explore nearby rooms while staying with others. Remember which corridors are brightly lit and which areas can trigger the darkness condition."
+        },
+        {
+          "title": "Watch for Abstracted Players",
+          "description": "Abstracted players are both a danger and an abstraction trigger. Keep your distance while learning the map, because staying near them can begin your transformation."
+        },
+        {
+          "title": "Follow the Survival Rule",
+          "description": "Stay with other players, remain in bright areas, and move away from abstracted characters. Following all three rules helps you resist abstraction."
+        },
+        {
+          "title": "Test One Mechanic at a Time",
+          "description": "When you are ready to abstract, choose only isolation, darkness, or abstracted-player proximity. Testing one condition makes the route easier to follow."
+        },
+        {
+          "title": "Stay After Transforming",
+          "description": "Do not reset or leave immediately after becoming abstracted. Staying in the session allows the later Caine appearance and Cellar sequence to begin."
+        }
+      ],
+      "tips": [
+        "The safest play is staying grouped, lit, and away from abstracted characters.",
+        "Trigger only one abstraction condition at a time so you can read what is happening.",
+        "Do not reset after transforming if you want the Caine sequence to start."
+      ]
+    },
+    "caineGuide": {
+      "title": "Experience Abstraction Caine Guide",
+      "eyebrow": "Character Event",
+      "subtitle": "Caine is tied to the post-abstraction event chain. Become abstracted, stay in that state, and remain in the session for the Caine sequence.",
+      "intro": "The Caine encounter happens after a successful abstraction rather than at the start of a normal session. Completing the sequence also opens the route into the Cellar.",
+      "steps": [
+        {
+          "title": "Join an Active Session",
+          "description": "Enter the experience and stay in the playable area with other users. The Caine sequence is tied to normal multiplayer gameplay."
+        },
+        {
+          "title": "Trigger Abstraction",
+          "description": "Become abstracted by staying isolated, remaining in darkness, or spending time beside an already abstracted player."
+        },
+        {
+          "title": "Stay Abstracted",
+          "description": "Do not reset your character or leave the server after transforming. The next event requires your character to stay in the abstracted state."
+        },
+        {
+          "title": "Wait for Caine to Appear",
+          "description": "Keep waiting as the abstracted character until the Caine event activates. Caine appears as part of the response to a player staying abstracted."
+        },
+        {
+          "title": "Watch the Caine Cutscene",
+          "description": "Stay connected while the animation plays. The sequence shows Caine interacting with the abstracted character and begins the transition toward the Cellar."
+        },
+        {
+          "title": "Continue the Event Chain",
+          "description": "Stay in the session after Caine appears. The Cellar route continues from this sequence rather than through a normal unlocked doorway."
+        }
+      ],
+      "tips": [
+        "Caine only appears after you have fully abstracted, not at the start of a session.",
+        "Stay abstracted and remain online so the Caine sequence can activate.",
+        "The Caine cutscene leads directly into the Cellar route."
+      ]
+    },
+    "cellarGuide": {
+      "title": "Experience Abstraction Cellar Guide",
+      "eyebrow": "Secret Route",
+      "subtitle": "The Cellar is part of the post-abstraction Caine sequence. Complete the transformation, stay in the server, and follow the event through its final transition.",
+      "intro": "Reaching the Cellar requires the correct event order. It is tied to Caine dealing with an abstracted player, so searching for a normal Cellar entrance before transforming will not complete the route.",
+      "steps": [
+        {
+          "title": "Complete an Abstraction Route",
+          "description": "Use isolation, darkness, or proximity to an abstracted player, and hold the condition until your character fully transforms."
+        },
+        {
+          "title": "Do Not Reset",
+          "description": "Stay as the abstracted character. Resetting, respawning, or leaving the server ends the event chain before Caine can continue it."
+        },
+        {
+          "title": "Trigger the Caine Response",
+          "description": "Stay abstracted until Caine appears. The Caine event connects the initial transformation to the Cellar sequence."
+        },
+        {
+          "title": "Let the Sequence Finish",
+          "description": "Stay connected and let the full Caine animation play. Leaving during the sequence stops the Cellar transition from completing."
+        },
+        {
+          "title": "Enter the Cellar Transition",
+          "description": "The completed event sends the abstracted character into the Cellar area. Follow the cutscene instead of searching for a standard door or staircase."
+        },
+        {
+          "title": "Restart a Failed Route",
+          "description": "Repeat the sequence in a fresh session if it stops. Resetting too early, leaving the abstracted state, disconnecting, or exiting before the Caine animation finishes will interrupt the route."
+        }
+      ],
+      "tips": [
+        "The Cellar is reached through the Caine sequence, not a normal door.",
+        "Resetting or leaving after abstraction ends the route.",
+        "Let the full Caine animation finish before the Cellar transition can complete."
+      ]
+    },
+    "survivalGuide": {
+      "title": "Experience Abstraction Survival Guide",
+      "eyebrow": "Survival Strategies",
+      "subtitle": "Avoid the three conditions that cause abstraction: isolation, prolonged darkness, and contact with abstracted players.",
+      "intro": "Survival is about controlling your location and the players around you. Stay with the group, use bright gathering areas, and leave the moment an abstracted character approaches.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "title": "Stay With Other Players",
+          "risk": "Remaining alone or becoming separated from the server group can trigger abstraction.",
+          "action": "Follow active players through the circus and return to the main gathering area whenever the group starts to split.",
+          "signs": [
+            "No other players are visible nearby",
+            "You have stayed inside a private room or remote corridor",
+            "The main group has moved to another part of the map"
+          ]
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "title": "Choose Bright Areas",
+          "risk": "Spending a long period in darkness is one of the game's three abstraction methods.",
+          "action": "Use illuminated rooms, open social areas, and the main circus floor instead of waiting in dark rooms or unlit routes.",
+          "signs": [
+            "The room lights have been switched off",
+            "You have entered a dark corridor or isolated corner",
+            "You are combining darkness with isolation"
+          ]
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "title": "Avoid Abstracted Players",
+          "risk": "Staying close to someone who is already abstracted can spread the abstraction effect.",
+          "action": "Create distance as soon as an abstracted character enters your area. Do not follow or surround the transformed player.",
+          "signs": [
+            "An abstracted character is standing beside the group",
+            "The transformed player keeps following you",
+            "Your escape route is becoming blocked"
+          ]
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Use a Group Regroup Point",
+          "risk": "Players who scatter between rooms are more likely to become isolated without noticing.",
+          "action": "Pick a bright central location as the team meeting point and return there after exploring rooms, corridors, or the Caine route.",
+          "signs": [
+            "Players are searching different areas alone",
+            "The server group is no longer visible from your position",
+            "An abstracted player has disrupted the gathering area"
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Remove Multiple Risks at Once",
+          "risk": "Darkness, isolation, and abstracted-player proximity can occur at the same time.",
+          "action": "Move into the light, rejoin normal players, and increase your distance from abstracted characters instead of fixing only one risk.",
+          "signs": [
+            "You are alone in a dark location",
+            "An abstracted player enters the same isolated area",
+            "The nearest safe group is several rooms away"
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+    "cutscenes": {
+      "title": "Experience Abstraction Cutscenes and Transformations",
+      "eyebrow": "Transformation Scenes",
+      "subtitle": "See how the main transformation sequences begin and what happens after a player becomes fully abstracted.",
+      "intro": "Experience Abstraction uses cinematic sequences to show the player's transformation and removal from the active circus. The standard abstraction scene begins through normal gameplay conditions, while Caine and Cellar scenes continue the sequence after transformation.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "title": "Standard Abstraction Transformation",
+          "category": "Normal Transformation",
+          "trigger": "Remain isolated, stay in darkness for a long period, or spend time near an already abstracted player.",
+          "sequence": "The player's normal form changes into an abstracted character after the abstraction condition has been maintained.",
+          "result": "The player enters the abstracted state and becomes a danger to nearby non-abstracted players."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "title": "Dark-Room Transformation",
+          "category": "Normal Transformation",
+          "trigger": "Enter a private room or another dark location, switch off available lighting, and remain there long enough.",
+          "sequence": "The transformation develops while the player stays away from bright social areas.",
+          "result": "The normal avatar is replaced by the game's abstracted form."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "title": "Caine Encounter",
+          "category": "Special Cutscene",
+          "trigger": "Complete the abstraction process and continue into the Caine-linked sequence shown in current gameplay.",
+          "sequence": "Caine appears after the player has reached the required abstracted state.",
+          "result": "The scene moves the player away from the normal social area and prepares the Cellar transition."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "title": "Cellar Transfer",
+          "category": "Location Cutscene",
+          "trigger": "Reach the Cellar stage through the Caine and abstraction route rather than normal map exploration.",
+          "sequence": "The abstracted player is transferred from the active circus area into the Cellar sequence.",
+          "result": "The player reaches the dark Cellar location associated with abstracted characters."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "title": "Updated Caine Cutscene",
+          "category": "Update Transformation",
+          "trigger": "Follow the current Caine route after becoming abstracted in the latest Roblox build.",
+          "sequence": "The updated sequence adds a new cinematic moment connected to Caine and the player's abstracted state.",
+          "result": "The transformation route continues through the newly added cutscene before the sequence ends."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
+    "mapAndDarkAreas": {
+      "title": "Experience Abstraction Map and Dark Areas",
+      "eyebrow": "Map Locations",
+      "subtitle": "Learn where players gather, where darkness makes abstraction easier, and how the Caine and Cellar routes fit into the map.",
+      "intro": "The map is split between open social spaces, private rooms, darker routes, and sequence-only locations. Bright central areas are better for survival, while isolated rooms and dark corridors are useful when deliberately testing abstraction.",
+      "locations": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Main Circus Floor",
+          "type": "Bright Social Area",
+          "risk": "Low",
+          "details": [
+            "A central area where players can stay close to the larger server group.",
+            "Useful as a regroup point after exploring private rooms and corridors.",
+            "Safer for resisting isolation-based abstraction while other players remain nearby."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Stage and Central Gathering Space",
+          "type": "Open Social Area",
+          "risk": "Low",
+          "details": [
+            "An open section suited to watching player movement and identifying abstracted characters.",
+            "Provides clearer escape options than narrow rooms or dark corridors.",
+            "Becomes dangerous when an abstracted player enters and stays close to the group."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Player Room Hallway",
+          "type": "Transition Area",
+          "risk": "Medium",
+          "details": [
+            "Connects the central circus area with smaller private rooms.",
+            "Players can quickly become separated when entering different rooms.",
+            "Use the hallway to return to the main group instead of waiting there alone."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "Private Rooms",
+          "type": "Isolation and Darkness Area",
+          "risk": "High",
+          "details": [
+            "Rooms make it easy to separate yourself from other players.",
+            "Available lighting can be switched off to create a controlled darkness route.",
+            "Staying alone inside a dark room combines two abstraction conditions."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Dark Corridors and Corners",
+          "type": "Dark Route",
+          "risk": "High",
+          "details": [
+            "Unlit or poorly lit routes support the prolonged-darkness abstraction method.",
+            "These areas become more dangerous when the main server group is out of sight.",
+            "Leave at once when an abstracted character enters the same narrow route."
+          ]
+        },
+        {
+          "title": "Caine Sequence Route",
+          "type": "Special Event Route",
+          "risk": "Transformation Required",
+          "details": [
+            "This route is tied to becoming abstracted and triggering the Caine encounter.",
+            "It is part of a cinematic progression rather than a normal survival gathering area.",
+            "Follow the current abstraction sequence to reach the Caine event."
+          ]
+        },
+        {
+          "title": "Cellar",
+          "type": "Sequence-Only Dark Location",
+          "risk": "Abstracted State",
+          "details": [
+            "The Cellar is reached through the Caine and abstraction sequence.",
+            "It is not treated as a normal walk-in social area in current gameplay footage.",
+            "The location serves as the destination for the abstracted-player transfer."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "updates": {
+      "title": "Experience Abstraction Updates",
+      "eyebrow": "Latest Changes",
+      "subtitle": "Follow additions to abstraction mechanics, Caine encounters, special locations, and cinematic sequences.",
+      "intro": "The official Roblox listing was updated on July 10, 2026. The current build keeps the three core abstraction methods and includes gameplay routes involving Caine, the Cellar, and a newly recorded cutscene.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "2026-07-10",
+          "title": "Core Abstraction Gameplay",
+          "changes": [
+            "Confirmed isolation as an abstraction method.",
+            "Confirmed prolonged darkness as an abstraction method.",
+            "Confirmed proximity to abstracted players as an abstraction method.",
+            "Established the central choice between resisting abstraction and deliberately triggering it."
+          ],
+          "link": "https://www.roblox.com/games/131320856116838/Experience-Abstraction"
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "2026-07-10",
+          "title": "Caine Encounter Route",
+          "changes": [
+            "Added a playable route for reaching the Caine sequence after abstraction.",
+            "Connected the player's transformed state with a Caine cinematic encounter.",
+            "Expanded the post-abstraction sequence beyond the standard transformation."
+          ],
+          "link": "https://www.youtube.com/watch?v=TB2cMYxbyB8"
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "2026-07-10",
+          "title": "Cellar Access",
+          "changes": [
+            "Added a route from the Caine sequence to the Cellar.",
+            "Introduced the Cellar as a special destination for abstracted players.",
+            "Made the location accessible through the event sequence rather than standard map exploration."
+          ],
+          "link": "https://www.youtube.com/watch?v=OIHO6wC5YSU"
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "2026-07-10",
+          "title": "New Abstraction Cutscene",
+          "changes": [
+            "Added a new cinematic sequence connected to Caine and abstraction.",
+            "Expanded the visual transition that follows the player's transformation.",
+            "Included the new scene in the latest recorded update walkthrough."
+          ],
+          "link": "https://www.youtube.com/watch?v=TB2cMYxbyB8"
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "2026-07-10",
+          "title": "Latest Content Overview",
+          "changes": [
+            "Documented the current characters and transformation content.",
+            "Showcased newly available locations and event routes.",
+            "Collected the major changes included in the updated Roblox build."
+          ],
+          "link": "https://www.youtube.com/watch?v=viq7iv6NwUg"
         }
       ]
     }
@@ -749,31 +493,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Experience Abstraction",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Experience Abstraction?",
+        "answer": "Experience Abstraction is a Roblox social horror experience inspired by The Amazing Digital Circus, where players choose to trigger or resist abstraction."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I trigger abstraction in Experience Abstraction?",
+        "answer": "In Experience Abstraction, abstraction is triggered by isolation, prolonged darkness, or close contact with an already abstracted player."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I get Caine in Experience Abstraction?",
+        "answer": "In Experience Abstraction, Caine appears after you become abstracted and stay in that state inside the server."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I reach the Cellar in Experience Abstraction?",
+        "answer": "The Cellar in Experience Abstraction is reached through the Caine sequence after a successful abstraction, not through normal map exploration."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Experience Abstraction free to play?",
+        "answer": "Yes. Experience Abstraction is free to play on Roblox."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Who made Experience Abstraction?",
+        "answer": "Experience Abstraction is a fan-made Roblox game by developer pawlooz, inspired by Glitch Productions' The Amazing Digital Circus."
       }
     ]
   },
@@ -799,127 +543,5 @@
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 Experience Abstraction Wiki. Not affiliated with pawlooz, Roblox, or Glitch Productions.",
     "disclaimer": "Unofficial fan-made resource website."
-  },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
   }
 }
