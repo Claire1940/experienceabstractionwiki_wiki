@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Experience Abstraction Wiki - Caine, Cellar & Abstraction Guides",
+  "short_name": "Experience Abstraction",
+  "description": "Experience Abstraction Wiki with verified abstraction methods, Caine and Cellar walkthroughs, character help, map locations, updates, and Roblox guides.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d6248f",
+  "background_color": "#0a0612",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
